@@ -1,0 +1,1346 @@
+{
+  "0": {
+    "Gender": "",
+    "Wort Deutsch": "hallo",
+    "Englisch": "hello",
+    "Kategorie": "Begrüßen und Verabschieden",
+    "Image URL": ""
+  },
+  "1": {
+    "Gender": "",
+    "Wort Deutsch": "guten Morgen",
+    "Englisch": "good morning",
+    "Kategorie": "Begrüßen und Verabschieden",
+    "Image URL": ""
+  },
+  "2": {
+    "Gender": "",
+    "Wort Deutsch": "guten Tag",
+    "Englisch": "good day; hello (formal)",
+    "Kategorie": "Begrüßen und Verabschieden",
+    "Image URL": ""
+  },
+  "3": {
+    "Gender": "",
+    "Wort Deutsch": "guten Abend",
+    "Englisch": "good evening",
+    "Kategorie": "Begrüßen und Verabschieden",
+    "Image URL": ""
+  },
+  "4": {
+    "Gender": "",
+    "Wort Deutsch": "Auf Weidersehen",
+    "Englisch": "goodbye (formal)",
+    "Kategorie": "Begrüßen und Verabschieden",
+    "Image URL": ""
+  },
+  "5": {
+    "Gender": "",
+    "Wort Deutsch": "tschüss",
+    "Englisch": "bye (informal)",
+    "Kategorie": "Begrüßen und Verabschieden",
+    "Image URL": ""
+  },
+  "6": {
+    "Gender": "",
+    "Wort Deutsch": "bis bald",
+    "Englisch": "see you soon (informal)",
+    "Kategorie": "Begrüßen und Verabschieden",
+    "Image URL": ""
+  },
+  "7": {
+    "Gender": "",
+    "Wort Deutsch": "ciao",
+    "Englisch": "bye (informal)",
+    "Kategorie": "Begrüßen und Verabschieden",
+    "Image URL": ""
+  },
+  "8": {
+    "Gender": "",
+    "Wort Deutsch": "mach's gut",
+    "Englisch": "take care (informal)",
+    "Kategorie": "Begrüßen und Verabschieden",
+    "Image URL": ""
+  },
+  "9": {
+    "Gender": "",
+    "Wort Deutsch": "servus",
+    "Englisch": "hello; goodbye (informal) (Southern Germany, Austria)",
+    "Kategorie": "Begrüßen und Verabschieden",
+    "Image URL": ""
+  },
+  "10": {
+    "Gender": "",
+    "Wort Deutsch": "moin",
+    "Englisch": "hello (informal) (Northern Germany)",
+    "Kategorie": "Begrüßen und Verabschieden",
+    "Image URL": ""
+  },
+  "11": {
+    "Gender": "",
+    "Wort Deutsch": "grüß Gott",
+    "Englisch": "hello (informal) (Southern Germany, Austria)",
+    "Kategorie": "Begrüßen und Verabschieden",
+    "Image URL": ""
+  },
+  "12": {
+    "Gender": "",
+    "Wort Deutsch": "Begüßen und Verabschieden",
+    "Englisch": "Greeting and Leave-Taking",
+    "Kategorie": "Begrüßen und Verabschieden",
+    "Image URL": ""
+  },
+  "13": {
+    "Gender": "die",
+    "Wort Deutsch": "Frage",
+    "Englisch": "question",
+    "Kategorie": "Frage und Antworten",
+    "Image URL": ""
+  },
+  "14": {
+    "Gender": "",
+    "Wort Deutsch": "fragen",
+    "Englisch": "to ask",
+    "Kategorie": "Frage und Antworten",
+    "Image URL": ""
+  },
+  "15": {
+    "Gender": "die",
+    "Wort Deutsch": "Antwort",
+    "Englisch": "answer",
+    "Kategorie": "Frage und Antworten",
+    "Image URL": ""
+  },
+  "16": {
+    "Gender": "",
+    "Wort Deutsch": "antworten",
+    "Englisch": "to answer",
+    "Kategorie": "Frage und Antworten",
+    "Image URL": ""
+  },
+  "17": {
+    "Gender": "",
+    "Wort Deutsch": "heißen",
+    "Englisch": "to be called, be named",
+    "Kategorie": "Frage und Antworten",
+    "Image URL": ""
+  },
+  "18": {
+    "Gender": "",
+    "Wort Deutsch": "Wie heißen Sie?",
+    "Englisch": "What's your name? (Formal)",
+    "Kategorie": "Frage und Antworten",
+    "Image URL": ""
+  },
+  "19": {
+    "Gender": "",
+    "Wort Deutsch": "Wie heißt du?",
+    "Englisch": "What's your name? (Informal)",
+    "Kategorie": "Frage und Antworten",
+    "Image URL": ""
+  },
+  "20": {
+    "Gender": "",
+    "Wort Deutsch": "ich heiße...",
+    "Englisch": "My name is...",
+    "Kategorie": "Frage und Antworten",
+    "Image URL": ""
+  },
+  "21": {
+    "Gender": "",
+    "Wort Deutsch": "sie heißt...",
+    "Englisch": "her name is...",
+    "Kategorie": "Frage und Antworten",
+    "Image URL": ""
+  },
+  "22": {
+    "Gender": "",
+    "Wort Deutsch": "kommen [aus]",
+    "Englisch": "to come [from]",
+    "Kategorie": "Frage und Antworten",
+    "Image URL": ""
+  },
+  "23": {
+    "Gender": "",
+    "Wort Deutsch": "Woher kommen Sie?",
+    "Englisch": "Where are you from? (Formal)",
+    "Kategorie": "Frage und Antworten",
+    "Image URL": ""
+  },
+  "24": {
+    "Gender": "",
+    "Wort Deutsch": "Woher kommst du?",
+    "Englisch": "Where are you from (Informal)",
+    "Kategorie": "Frage und Antworten",
+    "Image URL": ""
+  },
+  "25": {
+    "Gender": "",
+    "Wort Deutsch": "ich komme aus...",
+    "Englisch": "I'm from...",
+    "Kategorie": "Frage und Antworten",
+    "Image URL": ""
+  },
+  "26": {
+    "Gender": "",
+    "Wort Deutsch": "sie kommt aus...",
+    "Englisch": "she is from...",
+    "Kategorie": "Frage und Antworten",
+    "Image URL": ""
+  },
+  "27": {
+    "Gender": "",
+    "Wort Deutsch": "wie geht es Ihnen?",
+    "Englisch": "how are you? (formal)",
+    "Kategorie": "Frage und Antworten",
+    "Image URL": ""
+  },
+  "28": {
+    "Gender": "",
+    "Wort Deutsch": "wie geht's?",
+    "Englisch": "how are you? (informal)",
+    "Kategorie": "Frage und Antworten",
+    "Image URL": ""
+  },
+  "29": {
+    "Gender": "",
+    "Wort Deutsch": "mir geht es...",
+    "Englisch": "I'm doing...",
+    "Kategorie": "Frage und Antworten",
+    "Image URL": ""
+  },
+  "30": {
+    "Gender": "",
+    "Wort Deutsch": "mir geht es gut",
+    "Englisch": "I'm doing good",
+    "Kategorie": "Frage und Antworten",
+    "Image URL": ""
+  },
+  "31": {
+    "Gender": "",
+    "Wort Deutsch": "mir geht es prima",
+    "Englisch": "I'm doing great",
+    "Kategorie": "Frage und Antworten",
+    "Image URL": ""
+  },
+  "32": {
+    "Gender": "",
+    "Wort Deutsch": "mir geht es super",
+    "Englisch": "I'm doing super",
+    "Kategorie": "Frage und Antworten",
+    "Image URL": ""
+  },
+  "33": {
+    "Gender": "",
+    "Wort Deutsch": "mir geht es nicht gut",
+    "Englisch": "I'm doing not good",
+    "Kategorie": "Frage und Antworten",
+    "Image URL": ""
+  },
+  "34": {
+    "Gender": "",
+    "Wort Deutsch": "mir geht es schlecht",
+    "Englisch": "I'm doing bad",
+    "Kategorie": "Frage und Antworten",
+    "Image URL": ""
+  },
+  "35": {
+    "Gender": "",
+    "Wort Deutsch": "es geht.",
+    "Englisch": "I'm doing ok.",
+    "Kategorie": "Frage und Antworten",
+    "Image URL": ""
+  },
+  "36": {
+    "Gender": "",
+    "Wort Deutsch": "Frage und Antworten",
+    "Englisch": "Question and Answers",
+    "Kategorie": "Frage und Antworten",
+    "Image URL": ""
+  },
+  "37": {
+    "Gender": "",
+    "Wort Deutsch": "ich habe...",
+    "Englisch": "I have...",
+    "Kategorie": "Beschreibungen",
+    "Image URL": ""
+  },
+  "38": {
+    "Gender": "",
+    "Wort Deutsch": "sie hat...",
+    "Englisch": "she has...",
+    "Kategorie": "Beschreibungen",
+    "Image URL": ""
+  },
+  "39": {
+    "Gender": "",
+    "Wort Deutsch": "{37,38}blaue Augen",
+    "Englisch": "blue eyes",
+    "Kategorie": "Beschreibungen",
+    "Image URL": ""
+  },
+  "40": {
+    "Gender": "",
+    "Wort Deutsch": "{37,38}braune Augen",
+    "Englisch": "brown eyes",
+    "Kategorie": "Beschreibungen",
+    "Image URL": ""
+  },
+  "41": {
+    "Gender": "",
+    "Wort Deutsch": "{37,38}grüne Augen",
+    "Englisch": "green eyes",
+    "Kategorie": "Beschreibungen",
+    "Image URL": ""
+  },
+  "42": {
+    "Gender": "",
+    "Wort Deutsch": "{37,38}blondes Haar",
+    "Englisch": "blond hair",
+    "Kategorie": "Beschreibungen",
+    "Image URL": ""
+  },
+  "43": {
+    "Gender": "",
+    "Wort Deutsch": "{37,38}braunes Haar",
+    "Englisch": "brown hair",
+    "Kategorie": "Beschreibungen",
+    "Image URL": ""
+  },
+  "44": {
+    "Gender": "",
+    "Wort Deutsch": "{37,38}graues Haar",
+    "Englisch": "gray hair",
+    "Kategorie": "Beschreibungen",
+    "Image URL": ""
+  },
+  "45": {
+    "Gender": "",
+    "Wort Deutsch": "{37,38}rotes Haar",
+    "Englisch": "red hair",
+    "Kategorie": "Beschreibungen",
+    "Image URL": ""
+  },
+  "46": {
+    "Gender": "",
+    "Wort Deutsch": "{37,38}schwarzes Haar",
+    "Englisch": "black hair",
+    "Kategorie": "Beschreibungen",
+    "Image URL": ""
+  },
+  "47": {
+    "Gender": "",
+    "Wort Deutsch": "{37,38}weißes Haar",
+    "Englisch": "white hair",
+    "Kategorie": "Beschreibungen",
+    "Image URL": ""
+  },
+  "48": {
+    "Gender": "",
+    "Wort Deutsch": "{37,38}kurzes Harr",
+    "Englisch": "short hair",
+    "Kategorie": "Beschreibungen",
+    "Image URL": ""
+  },
+  "49": {
+    "Gender": "",
+    "Wort Deutsch": "{37,38}langes Haar",
+    "Englisch": "long hair",
+    "Kategorie": "Beschreibungen",
+    "Image URL": ""
+  },
+  "50": {
+    "Gender": "",
+    "Wort Deutsch": "{37,38}glattes Haar",
+    "Englisch": "straight hair",
+    "Kategorie": "Beschreibungen",
+    "Image URL": ""
+  },
+  "51": {
+    "Gender": "",
+    "Wort Deutsch": "{37,38}lockiges Haar",
+    "Englisch": "curly hair",
+    "Kategorie": "Beschreibungen",
+    "Image URL": ""
+  },
+  "52": {
+    "Gender": "",
+    "Wort Deutsch": "{37,38} einen Bart",
+    "Englisch": "a beard",
+    "Kategorie": "Beschreibungen",
+    "Image URL": ""
+  },
+  "53": {
+    "Gender": "",
+    "Wort Deutsch": "{37,38}einen Schnurrbart",
+    "Englisch": "a mustache",
+    "Kategorie": "Beschreibungen",
+    "Image URL": ""
+  },
+  "54": {
+    "Gender": "",
+    "Wort Deutsch": "ich bin...",
+    "Englisch": "I am...",
+    "Kategorie": "Beschreibungen",
+    "Image URL": ""
+  },
+  "55": {
+    "Gender": "",
+    "Wort Deutsch": "sie ist...",
+    "Englisch": "she is...",
+    "Kategorie": "Beschreibungen",
+    "Image URL": ""
+  },
+  "56": {
+    "Gender": "",
+    "Wort Deutsch": "{54,55}alt",
+    "Englisch": "old",
+    "Kategorie": "Beschreibungen",
+    "Image URL": ""
+  },
+  "57": {
+    "Gender": "",
+    "Wort Deutsch": "{54,55}jung",
+    "Englisch": "young",
+    "Kategorie": "Beschreibungen",
+    "Image URL": ""
+  },
+  "58": {
+    "Gender": "",
+    "Wort Deutsch": "{54,55}groß",
+    "Englisch": "tall",
+    "Kategorie": "Beschreibungen",
+    "Image URL": ""
+  },
+  "59": {
+    "Gender": "",
+    "Wort Deutsch": "{54,55}klein",
+    "Englisch": "short",
+    "Kategorie": "Beschreibungen",
+    "Image URL": ""
+  },
+  "60": {
+    "Gender": "",
+    "Wort Deutsch": "{54,55}mittelgroß",
+    "Englisch": "of medium height",
+    "Kategorie": "Beschreibungen",
+    "Image URL": ""
+  },
+  "61": {
+    "Gender": "",
+    "Wort Deutsch": "Beschreibungen",
+    "Englisch": "Description",
+    "Kategorie": "Beschreibungen",
+    "Image URL": ""
+  },
+  "62": {
+    "Gender": "die",
+    "Wort Deutsch": "Lampe, -n",
+    "Englisch": "lamp",
+    "Kategorie": "Im Seminarraum",
+    "Image URL": ""
+  },
+  "63": {
+    "Gender": "die",
+    "Wort Deutsch": "Tür, -e",
+    "Englisch": "door",
+    "Kategorie": "Im Seminarraum",
+    "Image URL": ""
+  },
+  "64": {
+    "Gender": "die",
+    "Wort Deutsch": "Tafel, -n",
+    "Englisch": "black/whiteboard",
+    "Kategorie": "Im Seminarraum",
+    "Image URL": ""
+  },
+  "65": {
+    "Gender": "die",
+    "Wort Deutsch": "Uhr, -en",
+    "Englisch": "clock",
+    "Kategorie": "Im Seminarraum",
+    "Image URL": ""
+  },
+  "66": {
+    "Gender": "die",
+    "Wort Deutsch": "Wand, ¨-e",
+    "Englisch": "wall",
+    "Kategorie": "Im Seminarraum",
+    "Image URL": ""
+  },
+  "67": {
+    "Gender": "der",
+    "Wort Deutsch": "Computer, -",
+    "Englisch": "computer",
+    "Kategorie": "Im Seminarraum",
+    "Image URL": ""
+  },
+  "68": {
+    "Gender": "der",
+    "Wort Deutsch": "Laptop, s",
+    "Englisch": "laptop",
+    "Kategorie": "Im Seminarraum",
+    "Image URL": ""
+  },
+  "69": {
+    "Gender": "der",
+    "Wort Deutsch": "Stift, -e",
+    "Englisch": "pen",
+    "Kategorie": "Im Seminarraum",
+    "Image URL": ""
+  },
+  "70": {
+    "Gender": "der",
+    "Wort Deutsch": "Bleistift, -e",
+    "Englisch": "pencil",
+    "Kategorie": "Im Seminarraum",
+    "Image URL": ""
+  },
+  "71": {
+    "Gender": "der",
+    "Wort Deutsch": "Tisch, -e",
+    "Englisch": "table",
+    "Kategorie": "Im Seminarraum",
+    "Image URL": ""
+  },
+  "72": {
+    "Gender": "das",
+    "Wort Deutsch": "Buch, ¨-e",
+    "Englisch": "book",
+    "Kategorie": "Im Seminarraum",
+    "Image URL": ""
+  },
+  "73": {
+    "Gender": "das",
+    "Wort Deutsch": "Fenster, -",
+    "Englisch": "window",
+    "Kategorie": "Im Seminarraum",
+    "Image URL": ""
+  },
+  "74": {
+    "Gender": "das",
+    "Wort Deutsch": "Handy, -s",
+    "Englisch": "cell phone",
+    "Kategorie": "Im Seminarraum",
+    "Image URL": ""
+  },
+  "75": {
+    "Gender": "das",
+    "Wort Deutsch": "Heft, -e",
+    "Englisch": "notebook",
+    "Kategorie": "Im Seminarraum",
+    "Image URL": ""
+  },
+  "76": {
+    "Gender": "das",
+    "Wort Deutsch": "Tablet, -s",
+    "Englisch": "tablet",
+    "Kategorie": "Im Seminarraum",
+    "Image URL": ""
+  },
+  "77": {
+    "Gender": "",
+    "Wort Deutsch": "Im Seminarraum",
+    "Englisch": "In the classroom",
+    "Kategorie": "Im Seminarraum",
+    "Image URL": ""
+  },
+  "78": {
+    "Gender": "die",
+    "Wort Deutsch": "Person, -en",
+    "Englisch": "person",
+    "Kategorie": "Personen",
+    "Image URL": ""
+  },
+  "79": {
+    "Gender": "die",
+    "Wort Deutsch": "Frau, -en",
+    "Englisch": "woman",
+    "Kategorie": "Personen",
+    "Image URL": ""
+  },
+  "80": {
+    "Gender": "die",
+    "Wort Deutsch": "Kommilitonin, -nen",
+    "Englisch": "fellow (feminine) student",
+    "Kategorie": "Personen",
+    "Image URL": ""
+  },
+  "81": {
+    "Gender": "die",
+    "Wort Deutsch": "Professorin, -nen",
+    "Englisch": "(feminine) professor",
+    "Kategorie": "Personen",
+    "Image URL": ""
+  },
+  "82": {
+    "Gender": "die",
+    "Wort Deutsch": "Studentin, -nen",
+    "Englisch": "(feminine) student",
+    "Kategorie": "Personen",
+    "Image URL": ""
+  },
+  "83": {
+    "Gender": "der",
+    "Wort Deutsch": "kommilitone, -n",
+    "Englisch": "fellow (masculine) student",
+    "Kategorie": "Personen",
+    "Image URL": ""
+  },
+  "84": {
+    "Gender": "der",
+    "Wort Deutsch": "Mann, ¨-er",
+    "Englisch": "man",
+    "Kategorie": "Personen",
+    "Image URL": ""
+  },
+  "85": {
+    "Gender": "der",
+    "Wort Deutsch": "Professor, -en",
+    "Englisch": "(masculine) professor",
+    "Kategorie": "Personen",
+    "Image URL": ""
+  },
+  "86": {
+    "Gender": "der",
+    "Wort Deutsch": "Student, -en",
+    "Englisch": "(male) student",
+    "Kategorie": "Personen",
+    "Image URL": ""
+  },
+  "87": {
+    "Gender": "",
+    "Wort Deutsch": "Studierenden",
+    "Englisch": "students",
+    "Kategorie": "Personen",
+    "Image URL": ""
+  },
+  "88": {
+    "Gender": "",
+    "Wort Deutsch": "Herr",
+    "Englisch": "Mr.",
+    "Kategorie": "Personen",
+    "Image URL": ""
+  },
+  "89": {
+    "Gender": "",
+    "Wort Deutsch": "Frau",
+    "Englisch": "Ms., Mrs",
+    "Kategorie": "Personen",
+    "Image URL": ""
+  },
+  "90": {
+    "Gender": "",
+    "Wort Deutsch": "Personen",
+    "Englisch": "People",
+    "Kategorie": "Personen",
+    "Image URL": ""
+  },
+  "91": {
+    "Gender": "",
+    "Wort Deutsch": "tragen",
+    "Englisch": "to wear",
+    "Kategorie": "Kleidung",
+    "Image URL": ""
+  },
+  "92": {
+    "Gender": "",
+    "Wort Deutsch": "ich trage...",
+    "Englisch": "I wear...",
+    "Kategorie": "Kleidung",
+    "Image URL": ""
+  },
+  "93": {
+    "Gender": "",
+    "Wort Deutsch": "du trägst...",
+    "Englisch": "you wear...",
+    "Kategorie": "Kleidung",
+    "Image URL": ""
+  },
+  "94": {
+    "Gender": "",
+    "Wort Deutsch": "sie trägt...",
+    "Englisch": "she wears...",
+    "Kategorie": "Kleidung",
+    "Image URL": ""
+  },
+  "95": {
+    "Gender": "die",
+    "Wort Deutsch": "Armbanduhr, en",
+    "Englisch": "wristwatch",
+    "Kategorie": "Kleidung",
+    "Image URL": ""
+  },
+  "96": {
+    "Gender": "die",
+    "Wort Deutsch": "Bluse, -n",
+    "Englisch": "blouse",
+    "Kategorie": "Kleidung",
+    "Image URL": ""
+  },
+  "97": {
+    "Gender": "die",
+    "Wort Deutsch": "Brille, -n",
+    "Englisch": "glasses",
+    "Kategorie": "Kleidung",
+    "Image URL": ""
+  },
+  "98": {
+    "Gender": "die",
+    "Wort Deutsch": "Hose, -n",
+    "Englisch": "pants",
+    "Kategorie": "Kleidung",
+    "Image URL": ""
+  },
+  "99": {
+    "Gender": "die",
+    "Wort Deutsch": "kurze Hose",
+    "Englisch": "shorts",
+    "Kategorie": "Kleidung",
+    "Image URL": ""
+  },
+  "100": {
+    "Gender": "die",
+    "Wort Deutsch": "Jacke, -n",
+    "Englisch": "jacket",
+    "Kategorie": "Kleidung",
+    "Image URL": ""
+  },
+  "101": {
+    "Gender": "die",
+    "Wort Deutsch": "Strickjacke",
+    "Englisch": "cardigan",
+    "Kategorie": "Kleidung",
+    "Image URL": ""
+  },
+  "102": {
+    "Gender": "die",
+    "Wort Deutsch": "Jeans, -",
+    "Englisch": "jeans",
+    "Kategorie": "Kleidung",
+    "Image URL": ""
+  },
+  "103": {
+    "Gender": "die",
+    "Wort Deutsch": "Krawatte, -n",
+    "Englisch": "tie",
+    "Kategorie": "Kleidung",
+    "Image URL": ""
+  },
+  "104": {
+    "Gender": "die",
+    "Wort Deutsch": "Maske, -n",
+    "Englisch": "mask",
+    "Kategorie": "Kleidung",
+    "Image URL": ""
+  },
+  "105": {
+    "Gender": "das",
+    "Wort Deutsch": "Hemd, -en",
+    "Englisch": "shirt",
+    "Kategorie": "Kleidung",
+    "Image URL": ""
+  },
+  "106": {
+    "Gender": "das",
+    "Wort Deutsch": "Kleid, -er",
+    "Englisch": "dress",
+    "Kategorie": "Kleidung",
+    "Image URL": ""
+  },
+  "107": {
+    "Gender": "das",
+    "Wort Deutsch": "Kopftuch, ¨-er",
+    "Englisch": "headscarf",
+    "Kategorie": "Kleidung",
+    "Image URL": ""
+  },
+  "108": {
+    "Gender": "das",
+    "Wort Deutsch": "Sakko",
+    "Englisch": "sports coat",
+    "Kategorie": "Kleidung",
+    "Image URL": ""
+  },
+  "109": {
+    "Gender": "das",
+    "Wort Deutsch": "T-Shirt, -s",
+    "Englisch": "t-shirt",
+    "Kategorie": "Kleidung",
+    "Image URL": ""
+  },
+  "110": {
+    "Gender": "der",
+    "Wort Deutsch": "Anzug,¨-e",
+    "Englisch": "suit",
+    "Kategorie": "Kleidung",
+    "Image URL": ""
+  },
+  "111": {
+    "Gender": "der",
+    "Wort Deutsch": "Mantel, ¨-",
+    "Englisch": "coat",
+    "Kategorie": "Kleidung",
+    "Image URL": ""
+  },
+  "112": {
+    "Gender": "der",
+    "Wort Deutsch": "Pullover, -",
+    "Englisch": "sweater",
+    "Kategorie": "Kleidung",
+    "Image URL": ""
+  },
+  "113": {
+    "Gender": "der",
+    "Wort Deutsch": "Rock,¨-e",
+    "Englisch": "skirt",
+    "Kategorie": "Kleidung",
+    "Image URL": ""
+  },
+  "114": {
+    "Gender": "der",
+    "Wort Deutsch": "Schuh, -e",
+    "Englisch": "shoe",
+    "Kategorie": "Kleidung",
+    "Image URL": ""
+  },
+  "115": {
+    "Gender": "der",
+    "Wort Deutsch": "Stiefel, -",
+    "Englisch": "boot",
+    "Kategorie": "Kleidung",
+    "Image URL": ""
+  },
+  "116": {
+    "Gender": "",
+    "Wort Deutsch": "Kleidung",
+    "Englisch": "clothing",
+    "Kategorie": "Kleidung",
+    "Image URL": ""
+  },
+  "117": {
+    "Gender": "die",
+    "Wort Deutsch": "Farbe, -n",
+    "Englisch": "color",
+    "Kategorie": "Farben",
+    "Image URL": ""
+  },
+  "118": {
+    "Gender": "",
+    "Wort Deutsch": "blau",
+    "Englisch": "blue",
+    "Kategorie": "Farben",
+    "Image URL": ""
+  },
+  "119": {
+    "Gender": "",
+    "Wort Deutsch": "braun",
+    "Englisch": "braun",
+    "Kategorie": "Farben",
+    "Image URL": ""
+  },
+  "120": {
+    "Gender": "",
+    "Wort Deutsch": "gelb",
+    "Englisch": "yellow",
+    "Kategorie": "Farben",
+    "Image URL": ""
+  },
+  "121": {
+    "Gender": "",
+    "Wort Deutsch": "grau",
+    "Englisch": "gray",
+    "Kategorie": "Farben",
+    "Image URL": ""
+  },
+  "122": {
+    "Gender": "",
+    "Wort Deutsch": "grün",
+    "Englisch": "green",
+    "Kategorie": "Farben",
+    "Image URL": ""
+  },
+  "123": {
+    "Gender": "",
+    "Wort Deutsch": "lila",
+    "Englisch": "purple",
+    "Kategorie": "Farben",
+    "Image URL": ""
+  },
+  "124": {
+    "Gender": "",
+    "Wort Deutsch": "orange",
+    "Englisch": "orange",
+    "Kategorie": "Farben",
+    "Image URL": ""
+  },
+  "125": {
+    "Gender": "",
+    "Wort Deutsch": "rot",
+    "Englisch": "red",
+    "Kategorie": "Farben",
+    "Image URL": ""
+  },
+  "126": {
+    "Gender": "",
+    "Wort Deutsch": "rosa",
+    "Englisch": "pink",
+    "Kategorie": "Farben",
+    "Image URL": ""
+  },
+  "127": {
+    "Gender": "",
+    "Wort Deutsch": "schwarz",
+    "Englisch": "black",
+    "Kategorie": "Farben",
+    "Image URL": ""
+  },
+  "128": {
+    "Gender": "",
+    "Wort Deutsch": "weiß",
+    "Englisch": "white",
+    "Kategorie": "Farben",
+    "Image URL": ""
+  },
+  "129": {
+    "Gender": "",
+    "Wort Deutsch": "",
+    "Englisch": "",
+    "Kategorie": "",
+    "Image URL": ""
+  },
+  "130": {
+    "Gender": "die",
+    "Wort Deutsch": "Familie, -n",
+    "Englisch": "family",
+    "Kategorie": "Familie und Freunde",
+    "Image URL": ""
+  },
+  "131": {
+    "Gender": "die",
+    "Wort Deutsch": "Stammbaum, ¨-e",
+    "Englisch": "family tree",
+    "Kategorie": "Familie und Freunde",
+    "Image URL": ""
+  },
+  "132": {
+    "Gender": "die",
+    "Wort Deutsch": "Cousine, -n",
+    "Englisch": "(fem.) cousin",
+    "Kategorie": "Familie und Freunde",
+    "Image URL": ""
+  },
+  "133": {
+    "Gender": "die",
+    "Wort Deutsch": "Großmutter, ¨-",
+    "Englisch": "grandmother",
+    "Kategorie": "Familie und Freunde",
+    "Image URL": ""
+  },
+  "134": {
+    "Gender": "die",
+    "Wort Deutsch": "Oma, -s",
+    "Englisch": "grandma",
+    "Kategorie": "Familie und Freunde",
+    "Image URL": ""
+  },
+  "135": {
+    "Gender": "die",
+    "Wort Deutsch": "Mutter, ¨-",
+    "Englisch": "mother",
+    "Kategorie": "Familie und Freunde",
+    "Image URL": ""
+  },
+  "136": {
+    "Gender": "die",
+    "Wort Deutsch": "Nichte, -n",
+    "Englisch": "niece",
+    "Kategorie": "Familie und Freunde",
+    "Image URL": ""
+  },
+  "137": {
+    "Gender": "die",
+    "Wort Deutsch": "Schwägerin, -nen",
+    "Englisch": "sister-in-law",
+    "Kategorie": "Familie und Freunde",
+    "Image URL": ""
+  },
+  "138": {
+    "Gender": "die",
+    "Wort Deutsch": "Schweigermutter, ¨-",
+    "Englisch": "mother-in-law",
+    "Kategorie": "Familie und Freunde",
+    "Image URL": ""
+  },
+  "139": {
+    "Gender": "die",
+    "Wort Deutsch": "Tante, -n",
+    "Englisch": "aunt",
+    "Kategorie": "Familie und Freunde",
+    "Image URL": ""
+  },
+  "140": {
+    "Gender": "die",
+    "Wort Deutsch": "Tochter, ¨-",
+    "Englisch": "daughter",
+    "Kategorie": "Familie und Freunde",
+    "Image URL": ""
+  },
+  "141": {
+    "Gender": "der",
+    "Wort Deutsch": "Bruder, ¨-",
+    "Englisch": "brother",
+    "Kategorie": "Familie und Freunde",
+    "Image URL": ""
+  },
+  "142": {
+    "Gender": "der",
+    "Wort Deutsch": "Cousin, -s",
+    "Englisch": "(male) cousin",
+    "Kategorie": "Familie und Freunde",
+    "Image URL": ""
+  },
+  "143": {
+    "Gender": "der",
+    "Wort Deutsch": "Enkelsohn, ¨-e",
+    "Englisch": "grandson",
+    "Kategorie": "Familie und Freunde",
+    "Image URL": ""
+  },
+  "144": {
+    "Gender": "der",
+    "Wort Deutsch": "Opa, -s",
+    "Englisch": "grandpa",
+    "Kategorie": "Familie und Freunde",
+    "Image URL": ""
+  },
+  "145": {
+    "Gender": "der",
+    "Wort Deutsch": "Neffe, -e",
+    "Englisch": "nephew",
+    "Kategorie": "Familie und Freunde",
+    "Image URL": ""
+  },
+  "146": {
+    "Gender": "der",
+    "Wort Deutsch": "Onkel, -",
+    "Englisch": "uncle",
+    "Kategorie": "Familie und Freunde",
+    "Image URL": ""
+  },
+  "147": {
+    "Gender": "der",
+    "Wort Deutsch": "Schwager, ¨-",
+    "Englisch": "brother-in-law",
+    "Kategorie": "Familie und Freunde",
+    "Image URL": ""
+  },
+  "148": {
+    "Gender": "der",
+    "Wort Deutsch": "Sohn",
+    "Englisch": "son",
+    "Kategorie": "Familie und Freunde",
+    "Image URL": ""
+  },
+  "149": {
+    "Gender": "der",
+    "Wort Deutsch": "Vater, ¨-",
+    "Englisch": "father",
+    "Kategorie": "Familie und Freunde",
+    "Image URL": ""
+  },
+  "150": {
+    "Gender": "das",
+    "Wort Deutsch": "Enkelkind, -er",
+    "Englisch": "grandchild",
+    "Kategorie": "Familie und Freunde",
+    "Image URL": ""
+  },
+  "151": {
+    "Gender": "das",
+    "Wort Deutsch": "Kind, -er",
+    "Englisch": "child",
+    "Kategorie": "Familie und Freunde",
+    "Image URL": ""
+  },
+  "152": {
+    "Gender": "",
+    "Wort Deutsch": "Eltern",
+    "Englisch": "parents",
+    "Kategorie": "Familie und Freunde",
+    "Image URL": ""
+  },
+  "153": {
+    "Gender": "",
+    "Wort Deutsch": "Großeltern",
+    "Englisch": "grandparents",
+    "Kategorie": "Familie und Freunde",
+    "Image URL": ""
+  },
+  "154": {
+    "Gender": "",
+    "Wort Deutsch": "Geschwister",
+    "Englisch": "siblings",
+    "Kategorie": "Familie und Freunde",
+    "Image URL": ""
+  },
+  "155": {
+    "Gender": "",
+    "Wort Deutsch": "Adoptiv-",
+    "Englisch": "adopted",
+    "Kategorie": "Familie und Freunde",
+    "Image URL": ""
+  },
+  "156": {
+    "Gender": "der",
+    "Wort Deutsch": "Adoptivsohn",
+    "Englisch": "adopted son",
+    "Kategorie": "Familie und Freunde",
+    "Image URL": ""
+  },
+  "157": {
+    "Gender": "",
+    "Wort Deutsch": "Halb-",
+    "Englisch": "half-",
+    "Kategorie": "Familie und Freunde",
+    "Image URL": ""
+  },
+  "158": {
+    "Gender": "die",
+    "Wort Deutsch": "Halbschwester",
+    "Englisch": "halfsister",
+    "Kategorie": "Familie und Freunde",
+    "Image URL": ""
+  },
+  "159": {
+    "Gender": "",
+    "Wort Deutsch": "Pflege-",
+    "Englisch": "foster",
+    "Kategorie": "Familie und Freunde",
+    "Image URL": ""
+  },
+  "160": {
+    "Gender": "die",
+    "Wort Deutsch": "Pflegemutter",
+    "Englisch": "foster mother",
+    "Kategorie": "Familie und Freunde",
+    "Image URL": ""
+  },
+  "161": {
+    "Gender": "",
+    "Wort Deutsch": "Stief-",
+    "Englisch": "step-",
+    "Kategorie": "Familie und Freunde",
+    "Image URL": ""
+  },
+  "162": {
+    "Gender": "der",
+    "Wort Deutsch": "Stiefvater",
+    "Englisch": "stepfather",
+    "Kategorie": "Familie und Freunde",
+    "Image URL": ""
+  },
+  "163": {
+    "Gender": "die",
+    "Wort Deutsch": "Freund, -e",
+    "Englisch": "(male) friend, boyfriend",
+    "Kategorie": "Familie und Freunde",
+    "Image URL": ""
+  },
+  "164": {
+    "Gender": "der",
+    "Wort Deutsch": "Mitbewohner, -",
+    "Englisch": "(male) roommate",
+    "Kategorie": "Familie und Freunde",
+    "Image URL": ""
+  },
+  "165": {
+    "Gender": "der",
+    "Wort Deutsch": "Partner, -",
+    "Englisch": "(male) partner",
+    "Kategorie": "Familie und Freunde",
+    "Image URL": ""
+  },
+  "166": {
+    "Gender": "der",
+    "Wort Deutsch": "(Ehe)mann, ¨-er",
+    "Englisch": "husband",
+    "Kategorie": "Familie und Freunde",
+    "Image URL": ""
+  },
+  "167": {
+    "Gender": "die",
+    "Wort Deutsch": "Freundin, -nen",
+    "Englisch": "(fem.) friend, girlfriend",
+    "Kategorie": "Familie und Freunde",
+    "Image URL": ""
+  },
+  "168": {
+    "Gender": "die",
+    "Wort Deutsch": "Mitbewohnerin, -nen",
+    "Englisch": "(fem.) roommate",
+    "Kategorie": "Familie und Freunde",
+    "Image URL": ""
+  },
+  "169": {
+    "Gender": "die",
+    "Wort Deutsch": "Partnerin, -nen",
+    "Englisch": "(fem.) partner",
+    "Kategorie": "Familie und Freunde",
+    "Image URL": ""
+  },
+  "170": {
+    "Gender": "die",
+    "Wort Deutsch": "(Ehe)frau, -e",
+    "Englisch": "wife",
+    "Kategorie": "Familie und Freunde",
+    "Image URL": ""
+  },
+  "171": {
+    "Gender": "",
+    "Wort Deutsch": "Familie und Freunde",
+    "Englisch": "Family and Friends",
+    "Kategorie": "Familie und Freunde",
+    "Image URL": ""
+  },
+  "172": {
+    "Gender": "die",
+    "Wort Deutsch": "Jahreszeit, -en",
+    "Englisch": "season",
+    "Kategorie": "Wetter",
+    "Image URL": ""
+  },
+  "173": {
+    "Gender": "der",
+    "Wort Deutsch": "Monat, -e",
+    "Englisch": "month",
+    "Kategorie": "Wetter",
+    "Image URL": ""
+  },
+  "174": {
+    "Gender": "der",
+    "Wort Deutsch": "Grad, -e",
+    "Englisch": "degree",
+    "Kategorie": "Wetter",
+    "Image URL": ""
+  },
+  "175": {
+    "Gender": "",
+    "Wort Deutsch": "Es ist 15 Grad.",
+    "Englisch": "It is 15 degrees",
+    "Kategorie": "Wetter",
+    "Image URL": ""
+  },
+  "176": {
+    "Gender": "das",
+    "Wort Deutsch": "Jahr, -e",
+    "Englisch": "year",
+    "Kategorie": "Wetter",
+    "Image URL": ""
+  },
+  "177": {
+    "Gender": "das",
+    "Wort Deutsch": "Wetter",
+    "Englisch": "weather",
+    "Kategorie": "Wetter",
+    "Image URL": ""
+  },
+  "178": {
+    "Gender": "",
+    "Wort Deutsch": "es ist...",
+    "Englisch": "It is...",
+    "Kategorie": "Wetter",
+    "Image URL": ""
+  },
+  "179": {
+    "Gender": "",
+    "Wort Deutsch": "{178} heiß",
+    "Englisch": "hot",
+    "Kategorie": "Wetter",
+    "Image URL": ""
+  },
+  "180": {
+    "Gender": "",
+    "Wort Deutsch": "{178}kalt",
+    "Englisch": "cold",
+    "Kategorie": "Wetter",
+    "Image URL": ""
+  },
+  "181": {
+    "Gender": "",
+    "Wort Deutsch": "{178}kühl",
+    "Englisch": "cool",
+    "Kategorie": "Wetter",
+    "Image URL": ""
+  },
+  "182": {
+    "Gender": "",
+    "Wort Deutsch": "{178}warm",
+    "Englisch": "warm",
+    "Kategorie": "Wetter",
+    "Image URL": ""
+  },
+  "183": {
+    "Gender": "",
+    "Wort Deutsch": "{178}sonnig",
+    "Englisch": "sunny",
+    "Kategorie": "Wetter",
+    "Image URL": ""
+  },
+  "184": {
+    "Gender": "",
+    "Wort Deutsch": "{178}windig",
+    "Englisch": "windy",
+    "Kategorie": "Wetter",
+    "Image URL": ""
+  },
+  "185": {
+    "Gender": "",
+    "Wort Deutsch": "{178}wolkig",
+    "Englisch": "cloudy",
+    "Kategorie": "Wetter",
+    "Image URL": ""
+  },
+  "186": {
+    "Gender": "",
+    "Wort Deutsch": "Es regnet",
+    "Englisch": "It is raining",
+    "Kategorie": "Wetter",
+    "Image URL": ""
+  },
+  "187": {
+    "Gender": "",
+    "Wort Deutsch": "Es schneit",
+    "Englisch": "It is snowing.",
+    "Kategorie": "Wetter",
+    "Image URL": ""
+  },
+  "188": {
+    "Gender": "der",
+    "Wort Deutsch": "Frühling",
+    "Englisch": "spring",
+    "Kategorie": "Wetter",
+    "Image URL": ""
+  },
+  "189": {
+    "Gender": "der",
+    "Wort Deutsch": "Herbst",
+    "Englisch": "fall",
+    "Kategorie": "Wetter",
+    "Image URL": ""
+  },
+  "190": {
+    "Gender": "der",
+    "Wort Deutsch": "Sommer",
+    "Englisch": "summer",
+    "Kategorie": "Wetter",
+    "Image URL": ""
+  },
+  "191": {
+    "Gender": "der",
+    "Wort Deutsch": "Winter",
+    "Englisch": "winter",
+    "Kategorie": "Wetter",
+    "Image URL": ""
+  }
+}
