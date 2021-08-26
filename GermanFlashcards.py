@@ -2,15 +2,11 @@
 # German Flashcards by Patt Martin -
 # ----------------------------------
 
-"""
-TODO:
-Toggling off and on categories
-"""
-
 import os
 import time
 import json
 import random
+import GuessTheTranslation
 
 # Starter method
 
@@ -107,7 +103,7 @@ def displayMainMenu(vocabWords):
             print("Invalid selection was made... try again")
 
         if(selectionID == "0"):
-            playSimpleFlashcards(vocabWords)
+            GuessTheTranslation.PlayGame(vocabWords)
         elif(selectionID == "1"):
             playFindTheCorrectOne(vocabWords)
         elif(selectionID == "8"):
@@ -119,43 +115,6 @@ def displayMainMenu(vocabWords):
             printSeperator()
         else:
             print("Invalid selection was made... try again")
-
-
-# Select a card at random
-def playSimpleFlashcards(vocabWords):
-    vocabLength = (len(dict(vocabWords)))
-    cardCount = 0
-    correctCount = 0
-    while True:
-        printSeperator()
-
-        chosenCard = vocabWords[str(random.randrange(0, vocabLength))]
-        germ0orEng1 = (int(random.random() * 100.0) % 1) == 0
-
-        langQ = id_Wort_Deutsch
-        langA = id_Englisch
-
-        if (germ0orEng1 == False):
-            langQ = id_Englisch
-            langA = id_Wort_Deutsch
-
-        print("Whats the translation of: " + chosenCard[langQ])
-        choice = input("Whats the translation: ")
-
-        if (choice == "~"):
-            return
-
-        if (choice == langA):
-            print("Correct")
-            correctCount += 1
-        else:
-            print("Incorrect, the correct answer was: " + chosenCard[langA])
-            input("Mark as correct anyways? Y or N: ")
-
-        cardCount += 1
-        print("Card's played: ", str(cardCount),
-              " Correct Responses: ", str(correctCount))
-
 
 def playFindTheCorrectOne(vocabWords):
     print("TODO")
