@@ -11,7 +11,7 @@ Using this to learn German and Python since I don't like writing tons of flashca
     - [x] When comparing an answer to the player input, compare as lower case
     - [x] Flip from German to English
     - [x] Compute {#,#,#} as a reference ID tuple to cells. When attempting to display, substitute out the {#} with a linked cell, or as nothing
-    - [ ] Options menu
+    - [x] Options menu
         - [ ] Toggle for language swapping
         - [ ] Kategorie selection (defaults to all words)
 - [ ] Move helper files and "global" variables to a utility file
