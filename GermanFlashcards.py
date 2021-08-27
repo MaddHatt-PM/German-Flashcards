@@ -95,7 +95,6 @@ def displayMainMenu(vocabWords):
         print("[1] Play pick the correct one out of three")
         print("[8] Output specific card by index")
         print("[9] Output entire vocab file via ID")
-        print("[~] To return to the main menu at any time")
         try:
             selectionID = input("Select [#] to execute: ")
         except:
