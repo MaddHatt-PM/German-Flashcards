@@ -1,15 +1,15 @@
+from os import add_dll_directory
 import GermanFlashcards
 import HelperFunctions
 import random
-
-gameOptions = {"vocabWords":{}, "kategorieCards":{}, "kategorieName":str, "flipLanguageRate":float}
 
 id_vocabWord = "vocabWords"
 id_selectedKategorie = "kategorieCards"
 id_selectedKategorieName = "kategorieName"
 id_flipLanguageRate = "flipLanguageRate"
 
-def ConfigureOptions(options:dict):
+
+def ConfigureOptions(options: dict) -> dict:
     # options = {"vocabWords":options[0], "kategorieCards":options[1], "kategorieName":options[2], "flipLanguageRate":options[3]}
     languageFlipOptions = ("Deutsch Only", "Mixed", "Englisch Only",)
     languageFlipValues = (0, 0.5, 1,)
@@ -17,15 +17,48 @@ def ConfigureOptions(options:dict):
     while (True):
         GermanFlashcards.printSeperator()
         print("Game Options")
-        print("[0] Selected Kategorie: " + options.get(id_selectedKategorieName))
-        print("[1] Language Flip Option: " + languageFlipOptions[languageFlipValues.index(options[id_flipLanguageRate])] )
+        print("[0] Selected Kategorie: " +
+              options.get(id_selectedKategorieName))
+        print("[1] Language Flip Option: " +
+              languageFlipOptions[languageFlipValues.index(options[id_flipLanguageRate])])
         print("[2] Return to game")
         choice = input("Select [#] to execute: ")
 
         # Configure Kategorie
         if (choice == "0"):
-            print("TODO")
-        
+            GermanFlashcards.printSeperator()
+
+            # Get all kategory types
+            unique_kategories = set()
+            for entry in options[id_vocabWord]:
+                unique_kategories.add(
+                    options[id_vocabWord][entry][GermanFlashcards.id_Kategorie])
+
+            if ("" in unique_kategories):
+                unique_kategories.remove("")
+
+            unique_kategories = list(unique_kategories)
+            unique_kategories.append("All cards")
+            index = 0
+            for entry in unique_kategories:
+                print('[' + str(index) + '] ' + unique_kategories[index])
+                index += 1
+
+            while True:
+                try:
+                    choice = int(input("Select [#] to choose category: "))
+                    if (choice >= 0 and choice < index):
+                        options[id_selectedKategorieName] = unique_kategories[choice]
+                        selected = {}
+                        for entry in options[id_vocabWord]:
+                            if (options[id_vocabWord][entry][GermanFlashcards.id_Kategorie] == options[id_selectedKategorieName]):
+                                selected[entry] = options[id_vocabWord][entry]
+                        options[id_selectedKategorie] = selected
+                        break
+
+                except TypeError:
+                    print("Invalid data entry")
+
         # Configure Language Flip Options
         elif(choice == "1"):
             while(True):
@@ -35,38 +68,40 @@ def ConfigureOptions(options:dict):
                 print("[2]", languageFlipOptions[2])
                 choice = input("Select language flip type: ")
                 if(choice == "0" or choice == "1" or choice == "2"):
-                    options[id_flipLanguageRate] = languageFlipValues[int(choice)]
+                    options[id_flipLanguageRate] = languageFlipValues[int(
+                        choice)]
                     print("Language flip type saved")
                     break
                 else:
                     print("Invalid data entry")
 
-
         # Exit the options menu
         elif(choice == "2"):
-            return
+            return options
         else:
-            print ("Invalid input, please try again")
-
+            print("Invalid input, please try again")
 
 
 def PlayGame(vocabWord: dict):
-    options = {"vocabWords":vocabWord,"kategorieCards":vocabWord.copy, "kategorieName":"All Cards", "flipLanguageRate":0.5}
+    options = {"vocabWords": vocabWord, "kategorieCards": vocabWord,
+               "kategorieName": "All Cards", "flipLanguageRate": 0.5}
 
-    selectedKategorie = vocabWord
+    selectedKategorie = options[id_selectedKategorie]
     GermanFlashcards.printSeperator()
-    print ("Welcome to Guess the Translation!")
+    print("Welcome to Guess the Translation!")
     print("type /exit at anytime to return to the main menu")
     print("type /options at anytime to change the kategorie or language flipping")
 
-    vocabLength = (len(dict(selectedKategorie)))
+    vocabLength = (len(options[id_selectedKategorie]))
     cardCount = 0
     correctCount = 0
+    offset = list(dict(options[id_selectedKategorie]).keys())[0]
     while True:
         GermanFlashcards.printSeperator()
 
         # Set up the flashcard for this turn
-        chosenCard = selectedKategorie[str(random.randrange(0, vocabLength))]
+        # needs to either offset or sel
+        chosenCard = options[id_selectedKategorie][str(random.randrange(0, vocabLength) + offset)]
         question = chosenCard[GermanFlashcards.id_Wort_Deutsch]
         answer = chosenCard[GermanFlashcards.id_Englisch]
 
@@ -83,8 +118,9 @@ def PlayGame(vocabWord: dict):
             addOptions = tuple(eval(addOptions))
             id = str(addOptions[(random.randrange(0, len(addOptions)))])
             if (id != "-1"):
-                question = selectedKategorie[id][GermanFlashcards.id_Wort_Deutsch] + " " + question[end+1:]
-                answer = (selectedKategorie[id])[
+                question = options[id_selectedKategorie][id][GermanFlashcards.id_Wort_Deutsch] + \
+                    " " + question[end+1:]
+                answer = (options[id_selectedKategorie][id])[
                     GermanFlashcards.id_Englisch] + " " + answer
                 question = question.replace("...", "")
                 answer = answer.replace("...", "")
@@ -100,9 +136,13 @@ def PlayGame(vocabWord: dict):
 
         if (choice == "/exit"):
             return
-        
+
         if (choice == "/options"):
-            ConfigureOptions(options)
+            options = ConfigureOptions(options)
+            selectedKategorie = options[id_selectedKategorie]
+            vocabLength = (len(dict(selectedKategorie)))
+            offset = list(dict(options[id_selectedKategorie]).keys())[0]
+            print(vocabLength)
             continue
 
         if (choice.lower() == answer.lower()):
