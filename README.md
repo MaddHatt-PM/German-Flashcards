@@ -8,7 +8,9 @@ TODO List
 [ ] GuessTheTranslation game
     [-] Move away from the main file 
     [-] Display the correct version of words when incorrect
-    [ ] When comparing an answer to the player input, compare as lower case 
+    [-] When comparing an answer to the player input, compare as lower case
+    [-] Flip from German to English
+    [-] Compute {#,#,#} as a reference ID tuple to cells. When attempting to display, substitute out the {#} with a linked cell, or as nothing
 [ ] Move helper files and "global" variables to a utility file
 [ ] Keep track of last ~50 incorrect words and store into file as JSON
     [ ] Loadable from different sessions

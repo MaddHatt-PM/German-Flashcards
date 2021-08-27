@@ -7,6 +7,7 @@ import time
 import json
 import random
 import GuessTheTranslation
+import HelperFunctions
 
 # Starter method
 
@@ -53,8 +54,7 @@ def printFlashCard(flashcard):
 # --- Main Methods ---
 # --------------------
 
-
-defaultDataPath = "C:\\Users\\Patri\\Desktop\\Code Projects\\German Flashcards\\Deutsch Vokabeln.json"
+defaultDataPath = "Deutsch Vokabeln.json"
 # Identifier variables from my spreadsheet, custom ones aren't going to work
 id_Gender = "Gender"
 id_Wort_Deutsch = "Wort Deutsch"
@@ -87,7 +87,6 @@ def displayDataLoadMenu():
     print(str(vocabLength) + " vocabulary cards loaded")
 
     displayMainMenu(vocabWords)
-
 
 def displayMainMenu(vocabWords):
     while True:
