@@ -31,8 +31,7 @@ def ConfigureOptions(options: dict) -> dict:
             # Get all kategory types
             unique_kategories = set()
             for entry in options[id_vocabWord]:
-                unique_kategories.add(
-                    options[id_vocabWord][entry][GermanFlashcards.id_Kategorie])
+                unique_kategories.add(options[id_vocabWord][entry][GermanFlashcards.id_Kategorie])
 
             if ("" in unique_kategories):
                 unique_kategories.remove("")
@@ -68,8 +67,7 @@ def ConfigureOptions(options: dict) -> dict:
                 print("[2]", languageFlipOptions[2])
                 choice = input("Select language flip type: ")
                 if(choice == "0" or choice == "1" or choice == "2"):
-                    options[id_flipLanguageRate] = languageFlipValues[int(
-                        choice)]
+                    options[id_flipLanguageRate] = languageFlipValues[int(choice)]
                     print("Language flip type saved")
                     break
                 else:
@@ -95,13 +93,14 @@ def PlayGame(vocabWord: dict):
     vocabLength = (len(options[id_selectedKategorie]))
     cardCount = 0
     correctCount = 0
-    offset = list(dict(options[id_selectedKategorie]).keys())[0]
+    offset = int(list(dict(options[id_selectedKategorie]).keys())[0])
     while True:
         GermanFlashcards.printSeperator()
 
         # Set up the flashcard for this turn
         # needs to either offset or sel
-        chosenCard = options[id_selectedKategorie][str(random.randrange(0, vocabLength) + offset)]
+        chosenCard = (options[id_selectedKategorie])[str(random.randrange(0, vocabLength) + offset)]
+
         question = chosenCard[GermanFlashcards.id_Wort_Deutsch]
         answer = chosenCard[GermanFlashcards.id_Englisch]
 
@@ -118,10 +117,9 @@ def PlayGame(vocabWord: dict):
             addOptions = tuple(eval(addOptions))
             id = str(addOptions[(random.randrange(0, len(addOptions)))])
             if (id != "-1"):
-                question = options[id_selectedKategorie][id][GermanFlashcards.id_Wort_Deutsch] + \
-                    " " + question[end+1:]
-                answer = (options[id_selectedKategorie][id])[
-                    GermanFlashcards.id_Englisch] + " " + answer
+                gender = options[id_vocabWord][id][GermanFlashcards.id_Gender]
+                question = gender + " " + options[id_vocabWord][id][GermanFlashcards.id_Wort_Deutsch] + " " + question[end+1:]
+                answer = (options[id_vocabWord][id])[GermanFlashcards.id_Englisch] + " " + answer
                 question = question.replace("...", "")
                 answer = answer.replace("...", "")
             else:
@@ -154,5 +152,4 @@ def PlayGame(vocabWord: dict):
                 correctCount += 1
 
         cardCount += 1
-        print("Card's played: ", str(cardCount),
-              " Correct Responses: ", str(correctCount))
+        print("Card's played: ", str(cardCount)," Correct Responses: ", str(correctCount))
