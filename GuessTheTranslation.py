@@ -148,8 +148,10 @@ def PlayGame(vocabWord: dict):
             correctCount += 1
         else:
             print("Incorrect, the correct answer was: " + answer)
-            if(input("Mark as correct anyways? Y or N: ") == 'Y'):
+            if(input("Mark as correct anyways? Y or type the answer to advance: ") == 'Y'):
                 correctCount += 1
+            # else:
+            #     if (input)
 
         cardCount += 1
         print("Card's played: ", str(cardCount)," Correct Responses: ", str(correctCount))

@@ -12,12 +12,24 @@ Using this to learn German and Python since I don't like writing tons of flashca
     - [x] Flip from German to English
     - [x] Compute {#,#,#} as a reference ID tuple to cells. When attempting to display, substitute out the {#} with a linked cell, or as nothing
     - [x] Options menu
-        - [ ] Toggle for language swapping
-        - [ ] Kategorie selection (defaults to all words)
+        - [x] Toggle for language swapping
+        - [x] Kategorie selection (defaults to all words)
+        - [ ] Toggle to show category (in German)
+    - [ ] Better string displaying by removing ', ...'
+- [ ] Move vocabData to a class
+    - [ ] On creation, create category list
+        - [ ] Keep category list ordered
 - [ ] Move helper files and "global" variables to a utility file
 - [ ] Keep track of last ~50 incorrect words and store into file as JSON
     - [ ] Loadable from different sessions
 - [ ] Implement categories as a vocabWords processor
     - [ ] Implement last ~50 incorrect words as a special category
 
+- [ ] Output session data so I can use them for R and data analysis
+    - [ ] Amount of vocab words on startup
+    - [ ] What was played?
+        - [ ] Correct / Total
+        - [ ] Start time - End time
+        - [ ] Difficult kategories
 ## Bug Tracker
+- [ ] Current vocabSetup is too complicated (who could've guessed)
