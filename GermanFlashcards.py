@@ -15,8 +15,11 @@ import utilities
 
 def ___init___():
     utilities.clear_console()
-    example_flashcard = utilities.flash_card("der", "Mann", "man", "Familia")
-    example_flashcard.print_card()
+    # example_flashcard = utilities.flash_card("der", "Mann", "man", "Familia")
+    # example_flashcard.print_card()
+    vocab_word_dict = utilities.load_json_file(default_data_path)
+    vocabData = GermanData()
+    vocabData
     # displayDataLoadMenu()
 
 
@@ -60,12 +63,8 @@ def displayDataLoadMenu():
 
     if(dataLoadID == 1):
         filepath = input("customDataPath: ")
-        filepath = str.replace(filepath, "\\", "\\\\")
 
-    # Load the file path as a file then convert it to readable bytes for json.load to use
-    utilities.show_loading_text("Loading")
-    with open(filepath, encoding="utf8") as jsonFileData:
-        vocabWords = json.load(jsonFileData)
+    vocab_word_dict = utilities.load_json_file(filepath)
 
     vocabLength = len(vocabWords)
     print(str(vocabLength) + " vocabulary cards loaded")
