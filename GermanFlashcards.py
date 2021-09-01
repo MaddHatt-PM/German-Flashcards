@@ -15,7 +15,9 @@ import utilities
 
 def ___init___():
     utilities.clear_console()
-    displayDataLoadMenu()
+    example_flashcard = utilities.flash_card("der", "Mann", "man", "Familia")
+    example_flashcard.print_card()
+    # displayDataLoadMenu()
 
 
 # ---------------------------------------------------------------------

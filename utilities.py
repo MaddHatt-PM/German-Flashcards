@@ -3,13 +3,11 @@ import os
 import time
 
 class GermanData:
+    def load_vocabulary_json():
+        print("TODO")
 
-    def __init__(self, name:str):
-        self.name = name
-        self.what = []
-
-    def test_if_this_works(self):
-        print("this is " + self.name)
+    def load_statistics():
+        print("TODO")
 
 class flash_card:
     def __init__(self, gender:str, deutsch:str, englisch:str, kategorie:str):
@@ -17,6 +15,12 @@ class flash_card:
         self.deutsch = deutsch
         self.englisch = englisch
         self.kategorie = kategorie
+
+    def print_card(self):
+        print("Gender" + ": " + self.gender)
+        print("Deutsch" + ": " + self.deutsch)
+        print("Englisch" + ": " + self.englisch)
+        print("Kategorie" + ": " + self.kategorie)
 
 
 # ---------------------------------------------------------------------

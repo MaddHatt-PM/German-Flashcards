@@ -1,5 +1,5 @@
 import GermanFlashcards
-import HelperFunctions
+# import HelperFunctions
 import random
 
 id_vocabWord = "vocabWords"
