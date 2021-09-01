@@ -1,16 +1,42 @@
 
+from _typeshed import Self
 import os
 import time
+import json
+
 
 class GermanData:
-    def load_vocabulary_json():
-        print("TODO")
+    def __init__(self):
+        self.kategories = list
+        self.vocab_words = list
+
+
+    def load_vocabulary_dict(self, input: dict):
+        # Dictionary keys straight from the spreadsheet/json
+        key_gender = "Gender"
+        key_wort_deutsch = "Wort Deutsch"
+        key_englisch = "Englisch"
+        key_kategorie = "Kategorie"
+
+        for vocab_word in input:
+            self.vocab_words.append( flash_card(
+                vocab_word[key_gender],
+                vocab_word[key_wort_deutsch],
+                vocab_word[key_englisch],
+                vocab_word[key_kategorie]))
+
+            if(vocab_word[key_kategorie] in self.kategories):
+                self.kategories.append(vocab_word[key_kategorie])
 
     def load_statistics():
         print("TODO")
 
+    def load_conjugations(self, input:dict):
+        print("TODO")
+
+
 class flash_card:
-    def __init__(self, gender:str, deutsch:str, englisch:str, kategorie:str):
+    def __init__(self, gender: str, deutsch: str, englisch: str, kategorie: str):
         self.gender = gender
         self.deutsch = deutsch
         self.englisch = englisch
@@ -26,6 +52,14 @@ class flash_card:
 # ---------------------------------------------------------------------
 # --- Helper Methods ---
 # ----------------------
+def load_json_file(filepath):
+    filepath = str.replace(filepath, "\\", "\\\\")
+    with open(filepath, encoding="utf8") as jsonFileData:
+        output = json.load(jsonFileData)
+
+    return output
+
+
 def clear_console():
     os.system("cls")
 
@@ -43,14 +77,3 @@ def show_loading_text(text):
 
 def print_seperator():
     print("\n---------------------------------------------------------------------\n")
-
-
-# def printFlashCard(flashcard):
-#     if (len(str(flashcard[id_Gender])) != 0):
-#         print(id_Gender + ": " + flashcard[id_Gender])
-#     if (len(str(flashcard[id_Wort_Deutsch])) != 0):
-#         print(id_Wort_Deutsch + ": " + flashcard[id_Wort_Deutsch])
-#     if (len(str(flashcard[id_Englisch])) != 0):
-#         print(id_Englisch + ": " + flashcard[id_Englisch])
-#     if (len(str(flashcard[id_Kategorie])) != 0):
-#         print(id_Kategorie + ": " + flashcard[id_Kategorie])
