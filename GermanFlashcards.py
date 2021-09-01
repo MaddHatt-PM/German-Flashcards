@@ -2,7 +2,6 @@
 # German Flashcards by Patt Martin -
 # ----------------------------------
 
-from GermanData import GermanData
 import os
 import time
 import json
@@ -18,8 +17,8 @@ def ___init___():
     # example_flashcard = utilities.flash_card("der", "Mann", "man", "Familia")
     # example_flashcard.print_card()
     vocab_word_dict = utilities.load_json_file(default_data_path)
-    vocabData = GermanData()
-    vocabData
+    vocabData = utilities.GermanData()
+    vocabData.load_vocabulary_dict(vocab_word_dict)
     # displayDataLoadMenu()
 
 
@@ -66,10 +65,10 @@ def displayDataLoadMenu():
 
     vocab_word_dict = utilities.load_json_file(filepath)
 
-    vocabLength = len(vocabWords)
-    print(str(vocabLength) + " vocabulary cards loaded")
+    # vocabLength = len(vocabWords)
+    # print(str(vocabLength) + " vocabulary cards loaded")
 
-    displayMainMenu(vocabWords)
+    # displayMainMenu(vocabWords)
 
 def displayMainMenu(vocabWords):
     while True:

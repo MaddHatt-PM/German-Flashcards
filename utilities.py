@@ -1,5 +1,3 @@
-
-from _typeshed import Self
 import os
 import time
 import json
@@ -7,8 +5,8 @@ import json
 
 class GermanData:
     def __init__(self):
-        self.kategories = list
-        self.vocab_words = list
+        self.kategories = []
+        self.vocab_words = []
 
 
     def load_vocabulary_dict(self, input: dict):
@@ -18,15 +16,17 @@ class GermanData:
         key_englisch = "Englisch"
         key_kategorie = "Kategorie"
 
-        for vocab_word in input:
-            self.vocab_words.append( flash_card(
-                vocab_word[key_gender],
-                vocab_word[key_wort_deutsch],
-                vocab_word[key_englisch],
-                vocab_word[key_kategorie]))
+        for key_id in input:
+            card = flash_card(
+                input[key_id][key_gender],
+                input[key_id][key_wort_deutsch],
+                input[key_id][key_englisch],
+                input[key_id][key_kategorie])
 
-            if(vocab_word[key_kategorie] in self.kategories):
-                self.kategories.append(vocab_word[key_kategorie])
+            self.vocab_words.append(card)
+
+            if(input[key_id][key_kategorie] in self.kategories == False):
+                self.kategories.append(key_id[key_kategorie])
 
     def load_statistics():
         print("TODO")
