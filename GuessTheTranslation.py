@@ -30,7 +30,7 @@ def ConfigureOptions(options: dict) -> dict:
             # Get all kategory types
             unique_kategories = set()
             for entry in options[id_vocabWord]:
-                unique_kategories.add(options[id_vocabWord][entry][GermanFlashcards.id_Kategorie])
+                unique_kategories.add(options[id_vocabWord][entry][GermanFlashcards.id_kategorie])
 
             if ("" in unique_kategories):
                 unique_kategories.remove("")
@@ -49,7 +49,7 @@ def ConfigureOptions(options: dict) -> dict:
                         options[id_selectedKategorieName] = unique_kategories[choice]
                         selected = {}
                         for entry in options[id_vocabWord]:
-                            if (options[id_vocabWord][entry][GermanFlashcards.id_Kategorie] == options[id_selectedKategorieName]):
+                            if (options[id_vocabWord][entry][GermanFlashcards.id_kategorie] == options[id_selectedKategorieName]):
                                 selected[entry] = options[id_vocabWord][entry]
                         options[id_selectedKategorie] = selected
                         break
@@ -100,8 +100,8 @@ def PlayGame(vocabWord: dict):
         # needs to either offset or sel
         chosenCard = (options[id_selectedKategorie])[str(random.randrange(0, vocabLength) + offset)]
 
-        question = chosenCard[GermanFlashcards.id_Wort_Deutsch]
-        answer = chosenCard[GermanFlashcards.id_Englisch]
+        question = chosenCard[GermanFlashcards.key_wort_deutsch]
+        answer = chosenCard[GermanFlashcards.id_englisch]
 
         # {-} Indicates that chosenWord contains references to another vocabWord to be replaced
         if('{' in question and '}' in question):
@@ -116,9 +116,9 @@ def PlayGame(vocabWord: dict):
             addOptions = tuple(eval(addOptions))
             id = str(addOptions[(random.randrange(0, len(addOptions)))])
             if (id != "-1"):
-                gender = options[id_vocabWord][id][GermanFlashcards.id_Gender]
-                question = gender + " " + options[id_vocabWord][id][GermanFlashcards.id_Wort_Deutsch] + " " + question[end+1:]
-                answer = (options[id_vocabWord][id])[GermanFlashcards.id_Englisch] + " " + answer
+                gender = options[id_vocabWord][id][GermanFlashcards.key_gender]
+                question = gender + " " + options[id_vocabWord][id][GermanFlashcards.key_wort_deutsch] + " " + question[end+1:]
+                answer = (options[id_vocabWord][id])[GermanFlashcards.id_englisch] + " " + answer
                 question = question.replace("...", "")
                 answer = answer.replace("...", "")
             else:

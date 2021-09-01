@@ -2,64 +2,46 @@
 # German Flashcards by Patt Martin -
 # ----------------------------------
 
+from GermanData import GermanData
 import os
 import time
 import json
 import random
 import GuessTheTranslation
-import HelperFunctions
+import utilities
 
 # Starter method
 
 
 def ___init___():
-    clearConsole()
+    utilities.clear_console()
     displayDataLoadMenu()
 
 
 # ---------------------------------------------------------------------
 # --- Helper Methods ---
 # ----------------------
-def clearConsole():
-    os.system("cls")
-
-
-def animateLoadingText(text):
-    print(text, sep="", end="")
-    time.sleep(0.2)
-    print('.', sep="", end="")
-    time.sleep(0.2)
-    print('.', sep="", end="")
-    time.sleep(0.2)
-    print('.', sep="")
-    time.sleep(0.4)
-
-
-def printSeperator():
-    print("\n---------------------------------------------------------------------\n")
-
-
-def printFlashCard(flashcard):
-    if (len(str(flashcard[id_Gender])) != 0):
-        print(id_Gender + ": " + flashcard[id_Gender])
-    if (len(str(flashcard[id_Wort_Deutsch])) != 0):
-        print(id_Wort_Deutsch + ": " + flashcard[id_Wort_Deutsch])
-    if (len(str(flashcard[id_Englisch])) != 0):
-        print(id_Englisch + ": " + flashcard[id_Englisch])
-    if (len(str(flashcard[id_Kategorie])) != 0):
-        print(id_Kategorie + ": " + flashcard[id_Kategorie])
+def printFlashCard(flashcard:dict):
+    if (len(str(flashcard[key_gender])) != 0):
+        print(key_gender + ": " + flashcard[key_gender])
+    if (len(str(flashcard[key_wort_deutsch])) != 0):
+        print(key_wort_deutsch + ": " + flashcard[key_wort_deutsch])
+    if (len(str(flashcard[id_englisch])) != 0):
+        print(id_englisch + ": " + flashcard[id_englisch])
+    if (len(str(flashcard[id_kategorie])) != 0):
+        print(id_kategorie + ": " + flashcard[id_kategorie])
 
 
 # ---------------------------------------------------------------------
 # --- Main Methods ---
 # --------------------
 
-defaultDataPath = "Deutsch Vokabeln.json"
+default_data_path = "Deutsch Vokabeln.json"
 # Identifier variables from my spreadsheet, custom ones aren't going to work
-id_Gender = "Gender"
-id_Wort_Deutsch = "Wort Deutsch"
-id_Englisch = "Englisch"
-id_Kategorie = "Kategorie"
+key_gender = "Gender"
+key_wort_deutsch = "Wort Deutsch"
+id_englisch = "Englisch"
+id_kategorie = "Kategorie"
 
 
 # Get the vocabulary words from a spreadsheet thats been converted into a JSON file
@@ -72,14 +54,14 @@ def displayDataLoadMenu():
         print("Invalid selection was made... try again")
         displayDataLoadMenu()
 
-    filepath = defaultDataPath
+    filepath = default_data_path
 
     if(dataLoadID == 1):
         filepath = input("customDataPath: ")
         filepath = str.replace(filepath, "\\", "\\\\")
 
     # Load the file path as a file then convert it to readable bytes for json.load to use
-    animateLoadingText("Loading")
+    utilities.show_loading_text("Loading")
     with open(filepath, encoding="utf8") as jsonFileData:
         vocabWords = json.load(jsonFileData)
 
@@ -90,7 +72,7 @@ def displayDataLoadMenu():
 
 def displayMainMenu(vocabWords):
     while True:
-        printSeperator()
+        utilities.print_seperator()
         print("[0] Play simple flashcards")
         print("[1] Play pick the correct one out of three")
         print("[8] Output specific card by index")
@@ -110,20 +92,20 @@ def displayMainMenu(vocabWords):
             printEntireVocabFile(vocabWords)
         elif(selectionID == "~"):
             print("You're already on the main menu")
-            printSeperator()
+            utilities.print_seperator()
         else:
             print("Invalid selection was made... try again")
 
 def playFindTheCorrectOne(vocabWords):
     print("TODO")
-    printSeperator()
+    utilities.print_seperator()
 
 
 def printIndividualVocabCard(vocabWords):
     vocabLength = (len(dict(vocabWords)))
     while True:
         try:
-            printSeperator()
+            utilities.print_seperator()
             choice = input(
                 "Enter '~' to return or a value between 0-" + str(vocabLength) + ": ")
             # Return to main menu
