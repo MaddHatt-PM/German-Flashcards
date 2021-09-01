@@ -32,4 +32,5 @@ Using this to learn German and Python since I don't like writing tons of flashca
         - [ ] Start time - End time
         - [ ] Difficult kategories
 ## Bug Tracker
-- [ ] Current vocabSetup is too complicated (who could've guessed)
+- [ ] Current vocabSetup is too complicated and prone to bugs(who could've guessed)
+- [ ] Does not play normally in the terminal... VSCode might be doing additional debugging stuff that helps?
