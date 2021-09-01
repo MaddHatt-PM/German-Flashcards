@@ -1,4 +1,3 @@
-from os import add_dll_directory
 import GermanFlashcards
 import HelperFunctions
 import random
