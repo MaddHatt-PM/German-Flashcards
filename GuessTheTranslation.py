@@ -2,7 +2,7 @@ from utilities import *
 
 key__flip_rate = "flip_rate"
 key__kategorie = "kategorie"
-all_categories = "_all"
+all_categories = "all"
 flip_language_rates = (0, 0.5, 1,)
 
 def config_options(germanData:GermanData , game_options:dict):
@@ -125,7 +125,3 @@ def play_game(germanData:GermanData):
         
         card_count += 1
         print("Card's played: ", str(card_count)," Correct Responses: ", str(correct_count))
-
-
-    
-

@@ -39,10 +39,6 @@ class GermanData:
         return self.vocab_words[id]
 
     def get_random_flashcard(self, kategorie = "all"):
-        print("\n")
-        print("code reached")
-        print(len(self.vocab_words))
-        print("\n")
 
         while(True):
             chosen_flashcard = self.vocab_words[random.randrange(0, len(self.vocab_words))]

@@ -56,7 +56,7 @@ def displayMainMenu(germanData:GermanData):
             print("Invalid selection was made... try again")
 
         if(selectionID == "0"):
-            print("Reworking")
+            GuessTheTranslation.play_game(germanData)
         elif(selectionID == "1"):
             playFindTheCorrectOne(germanData)
         elif(selectionID == "9"):
