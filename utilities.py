@@ -1,6 +1,8 @@
 import os
 import time
 import json
+import random
+
 
 
 class GermanData:
@@ -34,6 +36,16 @@ class GermanData:
     def load_conjugations(self, input:dict):
         print("TODO")
 
+    def get_random_flashcard(self, kategorie = "all"):
+        print("\n")
+        print("code reached")
+        print(len(self.vocab_words))
+        print("\n")
+
+        while(True):
+            chosen_flashcard = self.vocab_words[random.randrange(0, len(self.vocab_words))]
+            if(kategorie == "all" or chosen_flashcard.kategorie == kategorie):
+                return chosen_flashcard
 
 class flash_card:
     def __init__(self, gender: str, deutsch: str, englisch: str, kategorie: str):
@@ -48,6 +60,12 @@ class flash_card:
         print("Englisch" + ": " + self.englisch)
         print("Kategorie" + ": " + self.kategorie)
 
+    
+    def __repr__(self) -> str:
+        return self.deutsch
+
+    def __str__(self):
+        return self.deutsch
 
 # ---------------------------------------------------------------------
 # --- Helper Methods ---

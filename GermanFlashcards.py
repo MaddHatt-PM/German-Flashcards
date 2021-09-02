@@ -6,7 +6,7 @@ import os
 import time
 import json
 import random
-import GuessTheTranslation
+# import GuessTheTranslation
 import utilities
 
 # Starter method
@@ -14,12 +14,7 @@ import utilities
 
 def ___init___():
     utilities.clear_console()
-    # example_flashcard = utilities.flash_card("der", "Mann", "man", "Familia")
-    # example_flashcard.print_card()
-    vocab_word_dict = utilities.load_json_file(default_data_path)
-    vocabData = utilities.GermanData()
-    vocabData.load_vocabulary_dict(vocab_word_dict)
-    # displayDataLoadMenu()
+    displayDataLoadMenu()
 
 
 # ---------------------------------------------------------------------
@@ -63,14 +58,13 @@ def displayDataLoadMenu():
     if(dataLoadID == 1):
         filepath = input("customDataPath: ")
 
-    vocab_word_dict = utilities.load_json_file(filepath)
+    vocabData = utilities.GermanData()
+    vocabData.load_vocabulary_dict(utilities.load_json_file(filepath))
+    print(vocabData.get_random_flashcard())
 
-    # vocabLength = len(vocabWords)
-    # print(str(vocabLength) + " vocabulary cards loaded")
+    displayMainMenu()
 
-    # displayMainMenu(vocabWords)
-
-def displayMainMenu(vocabWords):
+def displayMainMenu():
     while True:
         utilities.print_seperator()
         print("[0] Play simple flashcards")
@@ -83,22 +77,19 @@ def displayMainMenu(vocabWords):
             print("Invalid selection was made... try again")
 
         if(selectionID == "0"):
-            GuessTheTranslation.PlayGame(vocabWords)
+            print("Reworking")
         elif(selectionID == "1"):
-            playFindTheCorrectOne(vocabWords)
+            playFindTheCorrectOne()
         elif(selectionID == "8"):
-            printIndividualVocabCard(vocabWords)
+            printIndividualVocabCard()
         elif(selectionID == "9"):
-            printEntireVocabFile(vocabWords)
+            printEntireVocabFile()
         elif(selectionID == "~"):
             print("You're already on the main menu")
             utilities.print_seperator()
         else:
             print("Invalid selection was made... try again")
 
-def playFindTheCorrectOne(vocabWords):
-    print("TODO")
-    utilities.print_seperator()
 
 
 def printIndividualVocabCard(vocabWords):
@@ -117,6 +108,9 @@ def printIndividualVocabCard(vocabWords):
         except:
             print("Invalid data entry")
 
+def playFindTheCorrectOne(vocabWords):
+    print("TODO")
+    utilities.print_seperator()
 
 def printEntireVocabFile(vocabWords):
     print("TODO")
