@@ -1,8 +1,8 @@
 from utilities import *
 
-key__flip_rate = "flip_rate"
 key__kategorie = "kategorie"
 all_categories = "all"
+key__flip_rate = "flip_rate"
 flip_language_rates = (0, 0.5, 1,)
 
 def config_options(germanData:GermanData , game_options:dict):
@@ -72,13 +72,17 @@ def play_game(germanData:GermanData):
     while True:
         print_seperator()
 
-        # Chosee card and setup variables
+        # Choose card and setup variables
         chosenCard = germanData.get_random_flashcard(game_options.get(key__kategorie))
         question = chosenCard.gender + chosenCard.deutsch
         answer =  chosenCard.englisch
 
         # {-} Indicates that chosenWord contains references to another vocabWord to be replaced
         if('{' in question and '}' in question):
+
+            output = germanData.combine_flashcards(chosenCard, question, answer)
+            question = output[0]
+            answer = output[1]
 
             # isolate options substring
             start = question.find('{')
