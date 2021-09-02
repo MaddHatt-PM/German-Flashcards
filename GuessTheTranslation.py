@@ -3,12 +3,64 @@ from utilities import *
 key__flip_rate = "flip_rate"
 key__kategorie = "kategorie"
 all_categories = "_all"
+flip_language_rates = (0, 0.5, 1,)
 
-def config_options(game_options:dict):
-    return game_options
+def config_options(germanData:GermanData , game_options:dict):
+    languageFlipOptions = ("Deutsch Only", "Mixed", "Englisch Only",)
+
+    while (True):
+        print_seperator()
+        print("Game Options")
+        print("[0] Selected Kategorie: " + game_options.get(key__kategorie))
+        print("[1] Language Flip Option: " + languageFlipOptions[game_options[key__flip_rate]])
+        print("[2] Return to game")
+        choice = input("Select [#] to execute: ")
+
+        # Configure Kategorie
+        if (choice == "0"):
+            print_seperator()
+
+            kategories = germanData.kategories.copy()
+            kategories.append("All cards")
+
+            index = 0
+            for entry in kategories:
+                print('[' + str(index) + '] ' + kategories[index])
+                index += 1
+
+            while True:
+                try:
+                    choice = int(input("Select [#] to choose category: "))
+                    if (choice >= 0 and choice < index):
+                        game_options[key__kategorie] = kategories[choice]
+                        break
+
+                except TypeError:
+                    print("Invalid data entry")
+
+        # Configure Language Flip Options
+        elif(choice == "1"):
+            while(True):
+                print_seperator()
+                print("[0]", languageFlipOptions[0])
+                print("[1]", languageFlipOptions[1])
+                print("[2]", languageFlipOptions[2])
+                choice = input("Select language flip type: ")
+                if(choice == "0" or choice == "1" or choice == "2"):
+                    game_options[key__flip_rate] = flip_language_rates[int(choice)]
+                    print("Language flip type saved")
+                    break
+                else:
+                    print("Invalid data entry")
+
+        # Exit the options menu
+        elif(choice == "2"):
+            return game_options
+        else:
+            print("Invalid input, please try again")
 
 def play_game(germanData:GermanData):
-    game_options = { key__flip_rate: 0.5, key__kategorie:all_categories  }
+    game_options = { key__flip_rate: 1, key__kategorie:all_categories  }
     correct_count = 0
     card_count = 0
     
@@ -48,9 +100,9 @@ def play_game(germanData:GermanData):
                 question = question[end+1:]
 
         question = chosenCard.gender + " " + question
-        flipLanguage = random.random() < game_options.get(key__flip_rate)
+        flip_language = flip_language_rates[random.random() < game_options.get(key__flip_rate)]
         answer_language = "English "
-        if (flipLanguage):
+        if flip_language:
             question, answer = answer, question
             answer_language = "Deutsch "
 
@@ -61,7 +113,7 @@ def play_game(germanData:GermanData):
             return
 
         if (choice == "/options"):
-            game_options = config_options(game_options)
+            game_options = config_options(germanData, game_options)
             continue
 
         if (choice.lower() == answer.lower):
