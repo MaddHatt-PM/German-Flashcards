@@ -4,7 +4,6 @@ import json
 import random
 
 
-
 class GermanData:
     def __init__(self):
         self.kategories = []
@@ -35,6 +34,9 @@ class GermanData:
 
     def load_conjugations(self, input:dict):
         print("TODO")
+
+    def get_flashcard(self, id:int):
+        return self.vocab_words[id]
 
     def get_random_flashcard(self, kategorie = "all"):
         print("\n")
