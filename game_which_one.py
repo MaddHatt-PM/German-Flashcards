@@ -19,6 +19,7 @@ def play_game(germanData:GermanData):
 
         # Card choosing and pruning
         chosen_card = germanData.get_random_flashcard(game_options.get(key__kategorie))
+        answer = chosen_card.deutsch
         if ( germanData.get_kategorie_count(chosen_card) - 1 < game_options.get(key__wrong_card_count)):
             continue
 
@@ -43,4 +44,21 @@ def play_game(germanData:GermanData):
             for word in word_chooses:
                 print("   - " + word)
 
-        return
+            choice = input("Enter answer: ")
+
+            if (choice == "/exit"):
+                return
+
+            if (choice == "/options"):
+                game_options = config_options(germanData, game_options)
+                continue
+
+            if (choice.lower() == answer.lower):
+                print("Correct")
+            else:
+                print("Incorrect, the correct answer was: " + answer)
+                if(input("Mark as correct anyways? Y or type the answer to advance: ") == 'Y'):
+                    correct_count += 1
+
+                card_count += 1
+                print("Card's played: ", str(card_count), " Correct Responses: ", str(correct_count))

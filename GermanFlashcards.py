@@ -86,10 +86,6 @@ def print_specific_vocab_word(germanData:GermanData):
         except:
             print("Invalid data entry")
 
-def playFindTheCorrectOne(vocabWords):
-    print("TODO")
-    print_seperator()
-
 # ---------------------------------------------------------------------
 
 
