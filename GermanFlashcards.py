@@ -6,7 +6,7 @@ import os
 import time
 import json
 import random
-import GuessTheTranslation
+import game_translate_one
 import game_which_one
 from utilities import *
 
@@ -57,9 +57,9 @@ def displayMainMenu(germanData:GermanData):
             print("Invalid selection was made... try again")
 
         if(selectionID == "0"):
-            GuessTheTranslation.play_game(germanData)
+            game_which_one.play_game(germanData)
         elif(selectionID == "1"):
-            playFindTheCorrectOne(germanData)
+            game_which_one.play_game(germanData)
         elif(selectionID == "9"):
             print_specific_vocab_word(germanData)
         elif(selectionID == "~"):
