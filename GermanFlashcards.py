@@ -6,7 +6,7 @@ import os
 import time
 import json
 import random
-# import GuessTheTranslation
+import GuessTheTranslation
 from utilities import *
 
 # ---------------------------------------------------------------------
@@ -68,7 +68,7 @@ def displayMainMenu(germanData:GermanData):
             print("Invalid selection was made... try again")
 
 
-
+# Remove later since this is just for debugging specific words
 def print_specific_vocab_word(germanData:GermanData):
     count = len(germanData.vocab_words)
 
