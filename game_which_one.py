@@ -35,9 +35,9 @@ def play_game(germanData:GermanData):
             if (possible_card.deutsch in word_chooses):
                 continue
 
-            index_pos = random.randrange(0, len(word_chooses))
-            word_chooses.insert(index_pos , possible_card.deutsch)
+            word_chooses.append(possible_card.deutsch)
             
+        random.shuffle(word_chooses)
         while True:
             print("Your word to translate is: " + chosen_card.englisch)
             print("Which word is the correct translation: ")
@@ -60,5 +60,7 @@ def play_game(germanData:GermanData):
                 if(input("Mark as correct anyways? Y or type the answer to advance: ") == 'Y'):
                     correct_count += 1
 
-                card_count += 1
-                print("Card's played: ", str(card_count), " Correct Responses: ", str(correct_count))
+            card_count += 1
+            print("Card's played: ", str(card_count), " Correct Responses: ", str(correct_count))
+            print_seperator()
+            break
