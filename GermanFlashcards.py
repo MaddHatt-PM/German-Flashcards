@@ -11,7 +11,7 @@ import game_translate_time
 # --- Starter Method ---
 # ----------------------
 
-def ___init___():
+def __init__():
     clear_console()
     show_data_menu()
 
@@ -93,4 +93,4 @@ def print_specific_vocab_word(germanData:GermanData):
 # ---------------------------------------------------------------------
 
 # Run program
-___init___()
+__init__()

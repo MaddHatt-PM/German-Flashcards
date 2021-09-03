@@ -62,5 +62,4 @@ def play_game(germanData:GermanData):
 
             card_count += 1
             print("Card's played: ", str(card_count), " Correct Responses: ", str(correct_count))
-            print_seperator()
             break
