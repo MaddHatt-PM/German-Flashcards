@@ -9,6 +9,7 @@ import random
 import game_translate_one
 import game_which_one
 import game_number_translator
+import game_translate_time
 from utilities import *
 
 # ---------------------------------------------------------------------
@@ -51,6 +52,7 @@ def displayMainMenu(germanData:GermanData):
         print("[0] Play simple flashcards")
         print("[1] Play pick the correct one out of three")
         print("[2] Translate that number!")
+        print("[3] Translate a random time!")
         print("[9] Output specific card by index")
 
         try:
@@ -64,6 +66,8 @@ def displayMainMenu(germanData:GermanData):
             game_which_one.play_game(germanData)
         elif(selectionID == "2"):
             game_number_translator.play_game(germanData)
+        elif(selectionID == "3"):
+            game_translate_time.play_game(germanData)
         elif(selectionID == "9"):
             print_specific_vocab_word(germanData)
         elif(selectionID == "~"):
