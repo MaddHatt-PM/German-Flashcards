@@ -53,7 +53,7 @@ def play_game(germanData:GermanData):
                 game_options = config_options(germanData, game_options)
                 continue
 
-            if (choice.lower() == answer.lower):
+            if (choice.lower() == answer.lower()):
                 print("Correct")
             else:
                 print("Incorrect, the correct answer was: " + answer)

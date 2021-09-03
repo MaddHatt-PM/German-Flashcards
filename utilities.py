@@ -121,7 +121,7 @@ deutsch_number_1to19 = {
     11: "elf",
     12: "zwölf",
     13: "dreizehn",
-    14: "viewzehn",
+    14: "vierzehn",
     15: "fünfzehn",
     16: "sechszehn",
     17: "siebzehn",
