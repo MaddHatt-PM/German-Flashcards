@@ -3,16 +3,16 @@ from utilities import *
 key__kategorie = "kategorie"
 all_categories = "all"
 key__flip_rate = "flip_rate"
-flip_language_rates = (0, 0.5, 1,)
+flip_lang_rates = (0, 0.5, 1,)
 
 def config_options(germanData:GermanData , game_options:dict):
-    languageFlipOptions = ("Deutsch Only", "Mixed", "Englisch Only",)
+    lang_flip_options = ("Deutsch Only", "Mixed", "Englisch Only",)
 
     while (True):
         print_seperator()
         print("Game Options")
         print("[0] Selected Kategorie: " + game_options.get(key__kategorie))
-        print("[1] Language Flip Option: " + languageFlipOptions[game_options[key__flip_rate]])
+        print("[1] Language Flip Option: " + lang_flip_options[game_options[key__flip_rate]])
         print("[2] Return to game")
         choice = input("Select [#] to execute: ")
 
@@ -25,7 +25,7 @@ def config_options(germanData:GermanData , game_options:dict):
 
             index = 0
             for entry in kategories:
-                print('[' + str(index) + '] ' + kategories[index])
+                print('[' + str(index) + '] ' + entry)
                 index += 1
 
             while True:
@@ -42,12 +42,12 @@ def config_options(germanData:GermanData , game_options:dict):
         elif(choice == "1"):
             while(True):
                 print_seperator()
-                print("[0]", languageFlipOptions[0])
-                print("[1]", languageFlipOptions[1])
-                print("[2]", languageFlipOptions[2])
+                print("[0]", lang_flip_options[0])
+                print("[1]", lang_flip_options[1])
+                print("[2]", lang_flip_options[2])
                 choice = input("Select language flip type: ")
                 if(choice == "0" or choice == "1" or choice == "2"):
-                    game_options[key__flip_rate] = flip_language_rates[int(choice)]
+                    game_options[key__flip_rate] = flip_lang_rates[int(choice)]
                     print("Language flip type saved")
                     break
                 else:
@@ -104,7 +104,7 @@ def play_game(germanData:GermanData):
                 question = question[end+1:]
 
         question = chosenCard.gender + " " + question
-        flip_language = flip_language_rates[random.random() < game_options.get(key__flip_rate)]
+        flip_language = flip_lang_rates[random.random() < game_options.get(key__flip_rate)]
         answer_language = "English "
         if flip_language:
             question, answer = answer, question

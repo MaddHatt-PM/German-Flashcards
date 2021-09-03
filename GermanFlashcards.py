@@ -1,16 +1,11 @@
 # ----------------------------------
 # German Flashcards by Patt Martin -
 # ----------------------------------
-
-import os
-import time
-import json
-import random
+from utilities import *
 import game_translate_one
 import game_which_one
 import game_number_translator
 import game_translate_time
-from utilities import *
 
 # ---------------------------------------------------------------------
 # --- Starter Method ---
@@ -18,7 +13,7 @@ from utilities import *
 
 def ___init___():
     clear_console()
-    displayDataLoadMenu()
+    show_data_menu()
 
 
 
@@ -27,14 +22,14 @@ def ___init___():
 # --------------------
 
 # Get the vocabulary words from a spreadsheet thats been converted into a JSON file
-def displayDataLoadMenu():
+def show_data_menu():
     print("[0] Load vocab JSON via default path")
     print("[1] Load vocab JSON via custom path")
     try:
         dataLoadID = int(input("Select [#] to execute: "))
     except:
         print("Invalid selection was made... try again")
-        displayDataLoadMenu()
+        show_data_menu()
 
     filepath = "Deutsch Vokabeln.json"
 
@@ -44,9 +39,9 @@ def displayDataLoadMenu():
     germanData = GermanData()
     germanData.load_vocabulary_dict(load_json_file(filepath))
 
-    displayMainMenu(germanData)
+    show_main_menu(germanData)
 
-def displayMainMenu(germanData:GermanData):
+def show_main_menu(germanData:GermanData):
     while True:
         print_seperator()
         print("[0] Play simple flashcards")
@@ -70,7 +65,7 @@ def displayMainMenu(germanData:GermanData):
             game_translate_time.play_game(germanData)
         elif(selectionID == "9"):
             print_specific_vocab_word(germanData)
-        elif(selectionID == "~"):
+        elif(selectionID == "/exit"):
             print("You're already on the main menu")
             print_seperator(germanData)
         else:
@@ -84,9 +79,9 @@ def print_specific_vocab_word(germanData:GermanData):
     while True:
         try:
             print_seperator()
-            choice = input("Enter '~' to return or a value between 0-" + str(count) + ": ")
+            choice = input("Enter '/exit' to return or a value between 0-" + str(count) + ": ")
             # Return to main menu
-            if (choice == "~"):
+            if (choice == "/exit"):
                 return
 
             germanData.get_flashcard(int(choice)).print_card()
@@ -94,8 +89,8 @@ def print_specific_vocab_word(germanData:GermanData):
         except:
             print("Invalid data entry")
 
-# ---------------------------------------------------------------------
 
+# ---------------------------------------------------------------------
 
 # Run program
 ___init___()
