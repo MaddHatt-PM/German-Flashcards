@@ -31,6 +31,10 @@ Using this to learn German and Python since I don't like writing tons of flashca
         - [ ] Correct / Total
         - [ ] Start time - End time
         - [ ] Difficult kategories
+
+
+- [ ] Add number guesser
+- [ ] Add time guesser
 ## Bug Tracker
 - [ ] Current vocabSetup is too complicated and prone to bugs(who could've guessed)
 - [ ] Does not play normally in the terminal... VSCode might be doing additional debugging stuff that helps?

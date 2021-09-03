@@ -95,6 +95,54 @@ class GermanData:
         return tuple(question, answer)
 
 # ---------------------------------------------------------------------
+# --- Numbers ---
+# ---------------
+
+def int_to_deutsch(input: int):
+    if (input <= 19):
+        return deutsch_number_1to19[input]
+    else:
+        tens_digit = deutsch_number_tens[input // 10 * 10]
+        ones_digit = deutsch_number_1to19[input % 10]
+        return ones_digit + deutsch_and + tens_digit
+
+deutsch_number_1to19 = {
+    0: "null",
+    1: "eins",
+    2: "zwei",
+    3: "drei",
+    4: "vier",
+    5: "fünf",
+    6: "sechs",
+    7: "sieben",
+    8: "acht",
+    9: "neun",
+    10: "zehn",
+    11: "elf",
+    12: "zwölf",
+    13: "dreizehn",
+    14: "viewzehn",
+    15: "fünfzehn",
+    16: "sechszehn",
+    17: "siebzehn",
+    18: "achtzehn",
+    19: "neunzehn"
+}
+
+deutsch_and = "und"
+
+deutsch_number_tens = {
+    20: "zwanzig",
+    30: "dreißig",
+    40: "viewzig",
+    50: "fünfzig",
+    60: "sechzig",
+    70: "siebzig",
+    80: "achtzig",
+    90: "neunzig"
+}
+
+# ---------------------------------------------------------------------
 # --- Helper Methods ---
 # ----------------------
 def load_json_file(filepath):
