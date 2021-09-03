@@ -20,6 +20,7 @@ def play_game(germanData:GermanData):
         chosen_card = germanData.get_random_flashcard(game_options.get(key__kategorie))
         answer = chosen_card.deutsch
         if ( germanData.get_kategorie_count(chosen_card) - 1 < game_options.get(key__extra_card_count)):
+            print("getting new card")
             continue
 
         elif ( '{' in chosen_card.deutsch and '}' in chosen_card.deutsch):
