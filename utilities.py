@@ -47,8 +47,12 @@ class GermanData:
 
             self.vocab_words.append(card)
 
-            if(input[key_id][key_kategorie] in self.kategories == False):
-                self.kategories.append(key_id[key_kategorie])
+        for card in self.vocab_words:
+            if(card.kategorie not in self.kategories):
+                self.kategories.append(card.kategorie)
+
+        if ('' in self.kategories):
+            self.kategories.remove('')
 
     def load_statistics():
         print("TODO")
@@ -65,10 +69,10 @@ class GermanData:
             if(kategorie == "all" or chosen_flashcard.kategorie == kategorie):
                 return chosen_flashcard
 
-    def get_kategorie_count(self, kategorie:str):
+    def get_kategorie_count(self, chosen_card:flash_card):
         counter = 0
-        for flashcard in self.vocab_words:
-            if (flashcard.kategorie == kategorie):
+        for card in self.vocab_words:
+            if (card.kategorie == chosen_card.kategorie):
                 counter += 1
         return counter
 
