@@ -4,9 +4,9 @@ Using this to learn German and Python since I don't like writing tons of flashca
 
 ## TODO List
 - [x] Figure out how to handle multiple py files
-- [ ] Change around names since I'm shoehorning in C# naming conventions...
+- [x] Change around names since I'm shoehorning in C# naming conventions...
 - [x] GuessTheTranslation game
-- [ ] WhichOne game
+- [x] WhichOne game
 - [x] Move helper files and data objects to a utility file
     - [ ] Might need to split those again
 - [ ] Keep track of last ~50 incorrect words and store into file as JSON
@@ -18,4 +18,4 @@ Using this to learn German and Python since I don't like writing tons of flashca
 
 ## Bug Tracker
 - [x] Current vocabSetup is too complicated and prone to bugs(who could've guessed)
-- [ ] Does not play normally in the terminal... VSCode might be doing additional debugging stuff that helps?
+- [x] Does not play normally in the terminal... VSCode might be doing additional debugging stuff that helps?
