@@ -2,6 +2,7 @@ import os
 import time
 import json
 import random
+import sys
 
 
 class flash_card:
@@ -163,13 +164,17 @@ def clear_console():
 
 def show_loading_text(text):
     print(text, sep="", end="")
+    sys.stdout.flush()
     time.sleep(0.2)
     print('.', sep="", end="")
+    sys.stdout.flush()
     time.sleep(0.2)
     print('.', sep="", end="")
+    sys.stdout.flush()
     time.sleep(0.2)
     print('.', sep="")
-    time.sleep(0.4)
+    sys.stdout.flush()
+    time.sleep(0.3)
 
 
 def print_seperator():

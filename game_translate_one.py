@@ -74,7 +74,7 @@ def play_game(germanData:GermanData):
 
         # Choose card and setup variables
         chosenCard = germanData.get_random_flashcard(game_options.get(key__kategorie))
-        question = chosenCard.gender + chosenCard.deutsch
+        question = chosenCard.deutsch
         answer =  chosenCard.englisch
 
         # {-} Indicates that chosenWord contains references to another vocabWord to be replaced
@@ -96,14 +96,14 @@ def play_game(germanData:GermanData):
             if (id != "-1"):
                 add_card = germanData.get_flashcard(id)
 
-                question = add_card.gender + " " + add_card.deutsch + " " + chosenCard.deutsch[end+1:] 
+                question = add_card.deutsch + " " + chosenCard.deutsch[end+1:] 
                 answer = add_card.englisch + " " + chosenCard.englisch
                 question = question.replace("...", "")
                 answer = answer.replace("...", "")
             else:
                 question = question[end+1:]
+                question = chosenCard.gender + " " + question
 
-        question = chosenCard.gender + " " + question
         flip_language = flip_lang_rates[random.random() < game_options.get(key__flip_rate)]
         answer_language = "English "
         if flip_language:

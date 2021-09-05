@@ -39,6 +39,9 @@ def show_data_menu():
     germanData = GermanData()
     germanData.load_vocabulary_dict(load_json_file(filepath))
 
+    show_loading_text("Loading")
+    print(len(germanData.vocab_words), "vocabulary cards loaded!")
+
     show_main_menu(germanData)
 
 def show_main_menu(germanData:GermanData):
