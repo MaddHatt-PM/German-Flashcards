@@ -835,7 +835,7 @@
   "119": {
     "Gender": "",
     "Wort Deutsch": "braun",
-    "Englisch": "braun",
+    "Englisch": "brown",
     "Kategorie": "Farben",
     "Image URL": ""
   },
@@ -1341,6 +1341,1560 @@
     "Wort Deutsch": "Winter",
     "Englisch": "winter",
     "Kategorie": "Wetter",
+    "Image URL": ""
+  },
+  "192": {
+    "Gender": "der",
+    "Wort Deutsch": "Hund",
+    "Englisch": "dog",
+    "Kategorie": "Misc",
+    "Image URL": ""
+  },
+  "193": {
+    "Gender": "",
+    "Wort Deutsch": null,
+    "Englisch": "zero",
+    "Kategorie": "Nummer",
+    "Image URL": ""
+  },
+  "194": {
+    "Gender": "",
+    "Wort Deutsch": "eins",
+    "Englisch": "one",
+    "Kategorie": "Nummer",
+    "Image URL": ""
+  },
+  "195": {
+    "Gender": "",
+    "Wort Deutsch": "zwei",
+    "Englisch": "two",
+    "Kategorie": "Nummer",
+    "Image URL": ""
+  },
+  "196": {
+    "Gender": "",
+    "Wort Deutsch": "drei",
+    "Englisch": "three",
+    "Kategorie": "Nummer",
+    "Image URL": ""
+  },
+  "197": {
+    "Gender": "",
+    "Wort Deutsch": "vier",
+    "Englisch": "four",
+    "Kategorie": "Nummer",
+    "Image URL": ""
+  },
+  "198": {
+    "Gender": "",
+    "Wort Deutsch": "fünf",
+    "Englisch": "five",
+    "Kategorie": "Nummer",
+    "Image URL": ""
+  },
+  "199": {
+    "Gender": "",
+    "Wort Deutsch": "sechs",
+    "Englisch": "six",
+    "Kategorie": "Nummer",
+    "Image URL": ""
+  },
+  "200": {
+    "Gender": "",
+    "Wort Deutsch": "sieben",
+    "Englisch": "seven",
+    "Kategorie": "Nummer",
+    "Image URL": ""
+  },
+  "201": {
+    "Gender": "",
+    "Wort Deutsch": "acht",
+    "Englisch": "eight",
+    "Kategorie": "Nummer",
+    "Image URL": ""
+  },
+  "202": {
+    "Gender": "",
+    "Wort Deutsch": "neun",
+    "Englisch": "nine",
+    "Kategorie": "Nummer",
+    "Image URL": ""
+  },
+  "203": {
+    "Gender": "",
+    "Wort Deutsch": "zehn",
+    "Englisch": "ten",
+    "Kategorie": "Nummer",
+    "Image URL": ""
+  },
+  "204": {
+    "Gender": "",
+    "Wort Deutsch": "elf",
+    "Englisch": "eleven",
+    "Kategorie": "Nummer",
+    "Image URL": ""
+  },
+  "205": {
+    "Gender": "",
+    "Wort Deutsch": "zwölf",
+    "Englisch": "twelve",
+    "Kategorie": "Nummer",
+    "Image URL": ""
+  },
+  "206": {
+    "Gender": "",
+    "Wort Deutsch": "dreizehn",
+    "Englisch": "thirteen",
+    "Kategorie": "Nummer",
+    "Image URL": ""
+  },
+  "207": {
+    "Gender": "",
+    "Wort Deutsch": "zwanzig",
+    "Englisch": "twenty",
+    "Kategorie": "Nummer",
+    "Image URL": ""
+  },
+  "208": {
+    "Gender": "",
+    "Wort Deutsch": "fünfundzwanzig",
+    "Englisch": "twenty five",
+    "Kategorie": "Nummer",
+    "Image URL": ""
+  },
+  "209": {
+    "Gender": "",
+    "Wort Deutsch": "zahlen",
+    "Englisch": "to count",
+    "Kategorie": "Nummer",
+    "Image URL": ""
+  },
+  "210": {
+    "Gender": "",
+    "Wort Deutsch": "Nummer",
+    "Englisch": "Number",
+    "Kategorie": "Nummer",
+    "Image URL": ""
+  },
+  "211": {
+    "Gender": "",
+    "Wort Deutsch": "Freizeit",
+    "Englisch": "Freetime",
+    "Kategorie": "Freizeit",
+    "Image URL": ""
+  },
+  "212": {
+    "Gender": "",
+    "Wort Deutsch": "arbeiten",
+    "Englisch": "to work",
+    "Kategorie": "Freizeit",
+    "Image URL": ""
+  },
+  "213": {
+    "Gender": "",
+    "Wort Deutsch": "chatten",
+    "Englisch": "to chat",
+    "Kategorie": "Freizeit",
+    "Image URL": ""
+  },
+  "214": {
+    "Gender": "",
+    "Wort Deutsch": "gehen",
+    "Englisch": "to go",
+    "Kategorie": "Freizeit",
+    "Image URL": ""
+  },
+  "215": {
+    "Gender": "",
+    "Wort Deutsch": "spazieren gehen",
+    "Englisch": "to go for a walk",
+    "Kategorie": "Freizeit",
+    "Image URL": ""
+  },
+  "216": {
+    "Gender": "",
+    "Wort Deutsch": "schwimmen gehen",
+    "Englisch": "to go swimming",
+    "Kategorie": "Freizeit",
+    "Image URL": ""
+  },
+  "217": {
+    "Gender": "",
+    "Wort Deutsch": "hören",
+    "Englisch": "to hear; to listen",
+    "Kategorie": "Freizeit",
+    "Image URL": ""
+  },
+  "218": {
+    "Gender": "",
+    "Wort Deutsch": "Musik hören",
+    "Englisch": "to listen to music",
+    "Kategorie": "Freizeit",
+    "Image URL": ""
+  },
+  "219": {
+    "Gender": "",
+    "Wort Deutsch": "kochen",
+    "Englisch": "to cook",
+    "Kategorie": "Freizeit",
+    "Image URL": ""
+  },
+  "220": {
+    "Gender": "",
+    "Wort Deutsch": "schreiben",
+    "Englisch": "to write",
+    "Kategorie": "Freizeit",
+    "Image URL": ""
+  },
+  "221": {
+    "Gender": "",
+    "Wort Deutsch": "E-Mails schreiben",
+    "Englisch": "to write emails",
+    "Kategorie": "Freizeit",
+    "Image URL": ""
+  },
+  "222": {
+    "Gender": "",
+    "Wort Deutsch": "schwimmen gehen",
+    "Englisch": "to swim",
+    "Kategorie": "Freizeit",
+    "Image URL": ""
+  },
+  "223": {
+    "Gender": "",
+    "Wort Deutsch": "simsen",
+    "Englisch": "to text",
+    "Kategorie": "Freizeit",
+    "Image URL": ""
+  },
+  "224": {
+    "Gender": "",
+    "Wort Deutsch": "singen",
+    "Englisch": "to sing",
+    "Kategorie": "Freizeit",
+    "Image URL": ""
+  },
+  "225": {
+    "Gender": "",
+    "Wort Deutsch": "spielen",
+    "Englisch": "to play",
+    "Kategorie": "Freizeit",
+    "Image URL": ""
+  },
+  "226": {
+    "Gender": "",
+    "Wort Deutsch": "Gitarre spielen",
+    "Englisch": "to play the guitar",
+    "Kategorie": "Freizeit",
+    "Image URL": ""
+  },
+  "227": {
+    "Gender": "",
+    "Wort Deutsch": "Videospiele spielen",
+    "Englisch": "to play videogames",
+    "Kategorie": "Freizeit",
+    "Image URL": ""
+  },
+  "228": {
+    "Gender": "",
+    "Wort Deutsch": "Fußball spielen",
+    "Englisch": "to play soccer",
+    "Kategorie": "Freizeit",
+    "Image URL": ""
+  },
+  "229": {
+    "Gender": "",
+    "Wort Deutsch": "Schach spielen",
+    "Englisch": "to play chess",
+    "Kategorie": "Freizeit",
+    "Image URL": ""
+  },
+  "230": {
+    "Gender": "",
+    "Wort Deutsch": "tanzen",
+    "Englisch": "to dance",
+    "Kategorie": "Freizeit",
+    "Image URL": ""
+  },
+  "231": {
+    "Gender": "",
+    "Wort Deutsch": "(sport) treiben",
+    "Englisch": "to exercise",
+    "Kategorie": "Freizeit",
+    "Image URL": ""
+  },
+  "232": {
+    "Gender": "",
+    "Wort Deutsch": "wandern",
+    "Englisch": "to hike",
+    "Kategorie": "Freizeit",
+    "Image URL": ""
+  },
+  "233": {
+    "Gender": "",
+    "Wort Deutsch": "zeichnen",
+    "Englisch": "to draw",
+    "Kategorie": "Freizeit",
+    "Image URL": ""
+  },
+  "234": {
+    "Gender": "",
+    "Wort Deutsch": "zelten",
+    "Englisch": "to camp",
+    "Kategorie": "Freizeit",
+    "Image URL": ""
+  },
+  "235": {
+    "Gender": "",
+    "Wort Deutsch": "gern",
+    "Englisch": "gladly; with pleasure",
+    "Kategorie": "Freizeit",
+    "Image URL": ""
+  },
+  "236": {
+    "Gender": "",
+    "Wort Deutsch": "wi singen gern",
+    "Englisch": "we like to sing",
+    "Kategorie": "Freizeit",
+    "Image URL": ""
+  },
+  "237": {
+    "Gender": "",
+    "Wort Deutsch": "Orte",
+    "Englisch": "Places",
+    "Kategorie": "Orte",
+    "Image URL": ""
+  },
+  "238": {
+    "Gender": "die",
+    "Wort Deutsch": "Arbeit",
+    "Englisch": "work",
+    "Kategorie": "Orte",
+    "Image URL": ""
+  },
+  "239": {
+    "Gender": "",
+    "Wort Deutsch": "zur Arbeit gehen",
+    "Englisch": "to go to work",
+    "Kategorie": "Orte",
+    "Image URL": ""
+  },
+  "240": {
+    "Gender": "die",
+    "Wort Deutsch": "Kneipe",
+    "Englisch": "bar; pub",
+    "Kategorie": "Orte",
+    "Image URL": ""
+  },
+  "241": {
+    "Gender": "",
+    "Wort Deutsch": "in die Kneipe gehen",
+    "Englisch": "to go to the bar",
+    "Kategorie": "Orte",
+    "Image URL": ""
+  },
+  "242": {
+    "Gender": "die",
+    "Wort Deutsch": "Party",
+    "Englisch": "party",
+    "Kategorie": "Orte",
+    "Image URL": ""
+  },
+  "243": {
+    "Gender": "",
+    "Wort Deutsch": "auf eine Party gehen",
+    "Englisch": "to go to a party",
+    "Kategorie": "Orte",
+    "Image URL": ""
+  },
+  "244": {
+    "Gender": "die",
+    "Wort Deutsch": "Uni",
+    "Englisch": "university",
+    "Kategorie": "Orte",
+    "Image URL": ""
+  },
+  "245": {
+    "Gender": "",
+    "Wort Deutsch": "zur Uni gehen",
+    "Englisch": "to go to the university",
+    "Kategorie": "Orte",
+    "Image URL": ""
+  },
+  "246": {
+    "Gender": "das",
+    "Wort Deutsch": "Bett",
+    "Englisch": "bed",
+    "Kategorie": "Orte",
+    "Image URL": ""
+  },
+  "247": {
+    "Gender": "",
+    "Wort Deutsch": "ins Bett gehen",
+    "Englisch": "to go to bed",
+    "Kategorie": "Orte",
+    "Image URL": ""
+  },
+  "248": {
+    "Gender": "das",
+    "Wort Deutsch": "Haus",
+    "Englisch": "house",
+    "Kategorie": "Orte",
+    "Image URL": ""
+  },
+  "249": {
+    "Gender": "",
+    "Wort Deutsch": "nach Hause gehen",
+    "Englisch": "to go home",
+    "Kategorie": "Orte",
+    "Image URL": ""
+  },
+  "250": {
+    "Gender": "das",
+    "Wort Deutsch": "Kino",
+    "Englisch": "movie theater",
+    "Kategorie": "Orte",
+    "Image URL": ""
+  },
+  "251": {
+    "Gender": "",
+    "Wort Deutsch": "ins Kino gehen",
+    "Englisch": "to go to the movie theater",
+    "Kategorie": "Orte",
+    "Image URL": ""
+  },
+  "252": {
+    "Gender": "das",
+    "Wort Deutsch": "Museum",
+    "Englisch": "museum",
+    "Kategorie": "Orte",
+    "Image URL": ""
+  },
+  "253": {
+    "Gender": "",
+    "Wort Deutsch": "ins Museum gehen",
+    "Englisch": "to go to the museum",
+    "Kategorie": "Orte",
+    "Image URL": ""
+  },
+  "254": {
+    "Gender": "das",
+    "Wort Deutsch": "Schwimmbad",
+    "Englisch": "swimming pool",
+    "Kategorie": "Orte",
+    "Image URL": ""
+  },
+  "255": {
+    "Gender": "",
+    "Wort Deutsch": "ins Schwimmbad gehen",
+    "Englisch": "to go the swimming pool",
+    "Kategorie": "Orte",
+    "Image URL": ""
+  },
+  "256": {
+    "Gender": "die",
+    "Wort Deutsch": "Biologie",
+    "Englisch": "biology",
+    "Kategorie": "Schule und Universität",
+    "Image URL": ""
+  },
+  "257": {
+    "Gender": "die",
+    "Wort Deutsch": "Chemie",
+    "Englisch": "chemistry",
+    "Kategorie": "Schule und Universität",
+    "Image URL": ""
+  },
+  "258": {
+    "Gender": "die",
+    "Wort Deutsch": "Fremdsprache",
+    "Englisch": "foreighn language",
+    "Kategorie": "Schule und Universität",
+    "Image URL": ""
+  },
+  "259": {
+    "Gender": "die",
+    "Wort Deutsch": "Geschichte",
+    "Englisch": "history",
+    "Kategorie": "Schule und Universität",
+    "Image URL": ""
+  },
+  "260": {
+    "Gender": "die",
+    "Wort Deutsch": "Gesundheitswissenschaft",
+    "Englisch": "health and wellness",
+    "Kategorie": "Schule und Universität",
+    "Image URL": ""
+  },
+  "261": {
+    "Gender": "die",
+    "Wort Deutsch": "Informatik",
+    "Englisch": "computer science",
+    "Kategorie": "Schule und Universität",
+    "Image URL": ""
+  },
+  "262": {
+    "Gender": "die",
+    "Wort Deutsch": "Kunst",
+    "Englisch": "art",
+    "Kategorie": "Schule und Universität",
+    "Image URL": ""
+  },
+  "263": {
+    "Gender": "die",
+    "Wort Deutsch": "Literatur",
+    "Englisch": "literature",
+    "Kategorie": "Schule und Universität",
+    "Image URL": ""
+  },
+  "264": {
+    "Gender": "die",
+    "Wort Deutsch": "Mathematik",
+    "Englisch": "mathematics",
+    "Kategorie": "Schule und Universität",
+    "Image URL": ""
+  },
+  "265": {
+    "Gender": "die",
+    "Wort Deutsch": "Medienwissenschaft",
+    "Englisch": "media studies",
+    "Kategorie": "Schule und Universität",
+    "Image URL": ""
+  },
+  "266": {
+    "Gender": "die",
+    "Wort Deutsch": "Musik",
+    "Englisch": "music",
+    "Kategorie": "Schule und Universität",
+    "Image URL": ""
+  },
+  "267": {
+    "Gender": "die",
+    "Wort Deutsch": "Psychologie",
+    "Englisch": "psychology",
+    "Kategorie": "Schule und Universität",
+    "Image URL": ""
+  },
+  "268": {
+    "Gender": "die",
+    "Wort Deutsch": "Soziologie",
+    "Englisch": "socialogy",
+    "Kategorie": "Schule und Universität",
+    "Image URL": ""
+  },
+  "269": {
+    "Gender": "die",
+    "Wort Deutsch": "Wirtschaft",
+    "Englisch": "economics; business",
+    "Kategorie": "Schule und Universität",
+    "Image URL": ""
+  },
+  "270": {
+    "Gender": "der",
+    "Wort Deutsch": "Maschinenbau",
+    "Englisch": "engineering",
+    "Kategorie": "Schule und Universität",
+    "Image URL": ""
+  },
+  "271": {
+    "Gender": "das",
+    "Wort Deutsch": "Lehramt",
+    "Englisch": "education",
+    "Kategorie": "Schule und Universität",
+    "Image URL": ""
+  },
+  "272": {
+    "Gender": "die",
+    "Wort Deutsch": "Umweltwiseenschaften",
+    "Englisch": "environmental science",
+    "Kategorie": "Schule und Universität",
+    "Image URL": ""
+  },
+  "273": {
+    "Gender": "die",
+    "Wort Deutsch": "Klasse, -n",
+    "Englisch": "class",
+    "Kategorie": "Schule und Universität",
+    "Image URL": ""
+  },
+  "274": {
+    "Gender": "die",
+    "Wort Deutsch": "Lehrerin, -nen",
+    "Englisch": "(fem.) teacher",
+    "Kategorie": "Schule und Universität",
+    "Image URL": ""
+  },
+  "275": {
+    "Gender": "die",
+    "Wort Deutsch": "Mensa, Mensen",
+    "Englisch": "cafeteria",
+    "Kategorie": "Schule und Universität",
+    "Image URL": ""
+  },
+  "276": {
+    "Gender": "die",
+    "Wort Deutsch": "Pause, - n",
+    "Englisch": "break",
+    "Kategorie": "Schule und Universität",
+    "Image URL": ""
+  },
+  "277": {
+    "Gender": "die",
+    "Wort Deutsch": "Prüfung, -en",
+    "Englisch": "test; exam",
+    "Kategorie": "Schule und Universität",
+    "Image URL": ""
+  },
+  "278": {
+    "Gender": "die",
+    "Wort Deutsch": "Schule, e",
+    "Englisch": "school",
+    "Kategorie": "Schule und Universität",
+    "Image URL": ""
+  },
+  "279": {
+    "Gender": "die",
+    "Wort Deutsch": "Schülerin, -nen",
+    "Englisch": "(fem.) K12 student",
+    "Kategorie": "Schule und Universität",
+    "Image URL": ""
+  },
+  "280": {
+    "Gender": "die",
+    "Wort Deutsch": "Universität, en",
+    "Englisch": "university",
+    "Kategorie": "Schule und Universität",
+    "Image URL": ""
+  },
+  "281": {
+    "Gender": "der",
+    "Wort Deutsch": "Kurs, en",
+    "Englisch": "course",
+    "Kategorie": "Schule und Universität",
+    "Image URL": ""
+  },
+  "282": {
+    "Gender": "der",
+    "Wort Deutsch": "Lehrer, -",
+    "Englisch": "(male) teacher",
+    "Kategorie": "Schule und Universität",
+    "Image URL": ""
+  },
+  "283": {
+    "Gender": "der",
+    "Wort Deutsch": "Schüler, -",
+    "Englisch": "(male) K12 student",
+    "Kategorie": "Schule und Universität",
+    "Image URL": ""
+  },
+  "284": {
+    "Gender": "der",
+    "Wort Deutsch": "Stundenplan, ¨ -e",
+    "Englisch": "schedule",
+    "Kategorie": "Schule und Universität",
+    "Image URL": ""
+  },
+  "285": {
+    "Gender": "der",
+    "Wort Deutsch": "Unterricht",
+    "Englisch": "lesson; class",
+    "Kategorie": "Schule und Universität",
+    "Image URL": ""
+  },
+  "286": {
+    "Gender": "das",
+    "Wort Deutsch": "Fach, ¨-er",
+    "Englisch": "academic subject",
+    "Kategorie": "Schule und Universität",
+    "Image URL": ""
+  },
+  "287": {
+    "Gender": "das",
+    "Wort Deutsch": "Klassenzimmer, -",
+    "Englisch": "classroom",
+    "Kategorie": "Schule und Universität",
+    "Image URL": ""
+  },
+  "288": {
+    "Gender": "das",
+    "Wort Deutsch": "Semester, -",
+    "Englisch": "semester",
+    "Kategorie": "Schule und Universität",
+    "Image URL": ""
+  },
+  "289": {
+    "Gender": "das",
+    "Wort Deutsch": "Studium, Studien",
+    "Englisch": "university studies",
+    "Kategorie": "Schule und Universität",
+    "Image URL": ""
+  },
+  "290": {
+    "Gender": "",
+    "Wort Deutsch": "Ferien",
+    "Englisch": "holidays; vacation",
+    "Kategorie": "Schule und Universität",
+    "Image URL": ""
+  },
+  "291": {
+    "Gender": "",
+    "Wort Deutsch": "Tagesablauf",
+    "Englisch": "Daily Routine",
+    "Kategorie": "Tagesablauf",
+    "Image URL": ""
+  },
+  "292": {
+    "Gender": "die",
+    "Wort Deutsch": "Stunde, -n",
+    "Englisch": "hour",
+    "Kategorie": "Tagesablauf",
+    "Image URL": ""
+  },
+  "293": {
+    "Gender": "die",
+    "Wort Deutsch": "Woche, -n",
+    "Englisch": "week",
+    "Kategorie": "Tagesablauf",
+    "Image URL": ""
+  },
+  "294": {
+    "Gender": "",
+    "Wort Deutsch": "in der Woche",
+    "Englisch": "during the week",
+    "Kategorie": "Tagesablauf",
+    "Image URL": ""
+  },
+  "295": {
+    "Gender": "der",
+    "Wort Deutsch": "Abend, -e",
+    "Englisch": "evening",
+    "Kategorie": "Tagesablauf",
+    "Image URL": ""
+  },
+  "296": {
+    "Gender": "der",
+    "Wort Deutsch": "Moment, -e",
+    "Englisch": "moment",
+    "Kategorie": "Tagesablauf",
+    "Image URL": ""
+  },
+  "297": {
+    "Gender": "",
+    "Wort Deutsch": "im Moment",
+    "Englisch": "at the moment",
+    "Kategorie": "Tagesablauf",
+    "Image URL": ""
+  },
+  "298": {
+    "Gender": "der",
+    "Wort Deutsch": "Tag, -e",
+    "Englisch": "day",
+    "Kategorie": "Tagesablauf",
+    "Image URL": ""
+  },
+  "299": {
+    "Gender": "",
+    "Wort Deutsch": "den ganzen Tag",
+    "Englisch": "all day long",
+    "Kategorie": "Tagesablauf",
+    "Image URL": ""
+  },
+  "300": {
+    "Gender": "",
+    "Wort Deutsch": "jeden Tag",
+    "Englisch": "every day",
+    "Kategorie": "Tagesablauf",
+    "Image URL": ""
+  },
+  "301": {
+    "Gender": "das",
+    "Wort Deutsch": "Wochenende, -n",
+    "Englisch": "weekend",
+    "Kategorie": "Tagesablauf",
+    "Image URL": ""
+  },
+  "302": {
+    "Gender": "",
+    "Wort Deutsch": "Montag",
+    "Englisch": "Monday",
+    "Kategorie": "Tagesablauf",
+    "Image URL": ""
+  },
+  "303": {
+    "Gender": "",
+    "Wort Deutsch": "Dienstag",
+    "Englisch": "Tuesday",
+    "Kategorie": "Tagesablauf",
+    "Image URL": ""
+  },
+  "304": {
+    "Gender": "",
+    "Wort Deutsch": "Mittwoch",
+    "Englisch": "Wednesday",
+    "Kategorie": "Tagesablauf",
+    "Image URL": ""
+  },
+  "305": {
+    "Gender": "",
+    "Wort Deutsch": "Donnerstag",
+    "Englisch": "Thursday",
+    "Kategorie": "Tagesablauf",
+    "Image URL": ""
+  },
+  "306": {
+    "Gender": "",
+    "Wort Deutsch": "Freitag",
+    "Englisch": "Friday",
+    "Kategorie": "Tagesablauf",
+    "Image URL": ""
+  },
+  "307": {
+    "Gender": "",
+    "Wort Deutsch": "Samstag",
+    "Englisch": "Saturday",
+    "Kategorie": "Tagesablauf",
+    "Image URL": ""
+  },
+  "308": {
+    "Gender": "",
+    "Wort Deutsch": "Sonntag",
+    "Englisch": "Sunday",
+    "Kategorie": "Tagesablauf",
+    "Image URL": ""
+  },
+  "309": {
+    "Gender": "",
+    "Wort Deutsch": "vorgestern",
+    "Englisch": "the day before yesterday",
+    "Kategorie": "Tagesablauf",
+    "Image URL": ""
+  },
+  "310": {
+    "Gender": "",
+    "Wort Deutsch": "gestern",
+    "Englisch": "yesterday",
+    "Kategorie": "Tagesablauf",
+    "Image URL": ""
+  },
+  "311": {
+    "Gender": "",
+    "Wort Deutsch": "heute",
+    "Englisch": "today",
+    "Kategorie": "Tagesablauf",
+    "Image URL": ""
+  },
+  "312": {
+    "Gender": "",
+    "Wort Deutsch": "morgen",
+    "Englisch": "tomorrow",
+    "Kategorie": "Tagesablauf",
+    "Image URL": ""
+  },
+  "313": {
+    "Gender": "",
+    "Wort Deutsch": "übermorgen",
+    "Englisch": "the day after tomoor",
+    "Kategorie": "Tagesablauf",
+    "Image URL": ""
+  },
+  "314": {
+    "Gender": "",
+    "Wort Deutsch": "früh",
+    "Englisch": "early",
+    "Kategorie": "Tagesablauf",
+    "Image URL": ""
+  },
+  "315": {
+    "Gender": "",
+    "Wort Deutsch": "spät",
+    "Englisch": "later",
+    "Kategorie": "Tagesablauf",
+    "Image URL": ""
+  },
+  "316": {
+    "Gender": "",
+    "Wort Deutsch": "um wie view Uhr...?",
+    "Englisch": "At what time...?",
+    "Kategorie": "Tagesablauf",
+    "Image URL": ""
+  },
+  "317": {
+    "Gender": "",
+    "Wort Deutsch": "wann?",
+    "Englisch": "When?",
+    "Kategorie": "Tagesablauf",
+    "Image URL": ""
+  },
+  "318": {
+    "Gender": "",
+    "Wort Deutsch": "um halb drei",
+    "Englisch": "at two thirty",
+    "Kategorie": "Tagesablauf",
+    "Image URL": ""
+  },
+  "319": {
+    "Gender": "",
+    "Wort Deutsch": "um seches (Ubr)",
+    "Englisch": "at six o'clock",
+    "Kategorie": "Tagesablauf",
+    "Image URL": ""
+  },
+  "320": {
+    "Gender": "",
+    "Wort Deutsch": "um sieben Uhr zwanzig",
+    "Englisch": "at seven twenty",
+    "Kategorie": "Tagesablauf",
+    "Image URL": ""
+  },
+  "321": {
+    "Gender": "",
+    "Wort Deutsch": "um Viertel vor vier",
+    "Englisch": "at quater to four",
+    "Kategorie": "Tagesablauf",
+    "Image URL": ""
+  },
+  "322": {
+    "Gender": "",
+    "Wort Deutsch": "um zwanzig nach fünf",
+    "Englisch": "at twenty after five",
+    "Kategorie": "Tagesablauf",
+    "Image URL": ""
+  },
+  "323": {
+    "Gender": "",
+    "Wort Deutsch": "wie spät ist es?",
+    "Englisch": "What time is it?",
+    "Kategorie": "Tagesablauf",
+    "Image URL": ""
+  },
+  "324": {
+    "Gender": "",
+    "Wort Deutsch": "Wie viel Uhr ist es?",
+    "Englisch": "What time is it?",
+    "Kategorie": "Tagesablauf",
+    "Image URL": ""
+  },
+  "325": {
+    "Gender": "",
+    "Wort Deutsch": "abholen",
+    "Englisch": "to pick (somebody) up",
+    "Kategorie": "Trennbare Verben",
+    "Image URL": ""
+  },
+  "326": {
+    "Gender": "",
+    "Wort Deutsch": "ankommen",
+    "Englisch": "to arrive",
+    "Kategorie": "Trennbare Verben",
+    "Image URL": ""
+  },
+  "327": {
+    "Gender": "",
+    "Wort Deutsch": "anrufen",
+    "Englisch": "to call up",
+    "Kategorie": "Trennbare Verben",
+    "Image URL": ""
+  },
+  "328": {
+    "Gender": "",
+    "Wort Deutsch": "aufgeben",
+    "Englisch": "to give up",
+    "Kategorie": "Trennbare Verben",
+    "Image URL": ""
+  },
+  "329": {
+    "Gender": "",
+    "Wort Deutsch": "aufhören",
+    "Englisch": "to stop (doing something)",
+    "Kategorie": "Trennbare Verben",
+    "Image URL": ""
+  },
+  "330": {
+    "Gender": "",
+    "Wort Deutsch": "aufräumen",
+    "Englisch": "to clean (up)",
+    "Kategorie": "Trennbare Verben",
+    "Image URL": ""
+  },
+  "331": {
+    "Gender": "",
+    "Wort Deutsch": "aufstehen",
+    "Englisch": "to get up",
+    "Kategorie": "Trennbare Verben",
+    "Image URL": ""
+  },
+  "332": {
+    "Gender": "",
+    "Wort Deutsch": "ausfüllen",
+    "Englisch": "to fill up",
+    "Kategorie": "Trennbare Verben",
+    "Image URL": ""
+  },
+  "333": {
+    "Gender": "",
+    "Wort Deutsch": "ausgehen",
+    "Englisch": "to go out",
+    "Kategorie": "Trennbare Verben",
+    "Image URL": ""
+  },
+  "334": {
+    "Gender": "",
+    "Wort Deutsch": "einkaufen (gehen)",
+    "Englisch": "to (go) shop(ing)",
+    "Kategorie": "Trennbare Verben",
+    "Image URL": ""
+  },
+  "335": {
+    "Gender": "",
+    "Wort Deutsch": "fernsehen",
+    "Englisch": "to watch TV",
+    "Kategorie": "Trennbare Verben",
+    "Image URL": ""
+  },
+  "336": {
+    "Gender": "",
+    "Wort Deutsch": "sie sieht fern",
+    "Englisch": "she is watching TV",
+    "Kategorie": "Trennbare Verben",
+    "Image URL": ""
+  },
+  "337": {
+    "Gender": "",
+    "Wort Deutsch": "kennenlernen",
+    "Englisch": "to get to know (somebody)",
+    "Kategorie": "Trennbare Verben",
+    "Image URL": ""
+  },
+  "338": {
+    "Gender": "",
+    "Wort Deutsch": "Trennbare Verben",
+    "Englisch": "Seperable Prefix Verbs",
+    "Kategorie": "Trennbare Verben",
+    "Image URL": ""
+  },
+  "339": {
+    "Gender": "",
+    "Wort Deutsch": "Sonstige Verben",
+    "Englisch": "Other Verbs",
+    "Kategorie": "Sonstige Verben",
+    "Image URL": ""
+  },
+  "340": {
+    "Gender": "",
+    "Wort Deutsch": "arbeiten",
+    "Englisch": "to work",
+    "Kategorie": "Sonstige Verben",
+    "Image URL": ""
+  },
+  "341": {
+    "Gender": "",
+    "Wort Deutsch": "beginnen",
+    "Englisch": "to begin",
+    "Kategorie": "Sonstige Verben",
+    "Image URL": ""
+  },
+  "342": {
+    "Gender": "",
+    "Wort Deutsch": "besuchen",
+    "Englisch": "to visit",
+    "Kategorie": "Sonstige Verben",
+    "Image URL": ""
+  },
+  "343": {
+    "Gender": "",
+    "Wort Deutsch": "duschen",
+    "Englisch": "to shower",
+    "Kategorie": "Sonstige Verben",
+    "Image URL": ""
+  },
+  "344": {
+    "Gender": "",
+    "Wort Deutsch": "fliegen",
+    "Englisch": "to fly",
+    "Kategorie": "Sonstige Verben",
+    "Image URL": ""
+  },
+  "345": {
+    "Gender": "",
+    "Wort Deutsch": "frühstücken",
+    "Englisch": "to eat breakfast",
+    "Kategorie": "Sonstige Verben",
+    "Image URL": ""
+  },
+  "346": {
+    "Gender": "",
+    "Wort Deutsch": "kaufen",
+    "Englisch": "to buy",
+    "Kategorie": "Sonstige Verben",
+    "Image URL": ""
+  },
+  "347": {
+    "Gender": "",
+    "Wort Deutsch": "mögen",
+    "Englisch": "to like",
+    "Kategorie": "Sonstige Verben",
+    "Image URL": ""
+  },
+  "348": {
+    "Gender": "",
+    "Wort Deutsch": "ich mag",
+    "Englisch": "I like",
+    "Kategorie": "Sonstige Verben",
+    "Image URL": ""
+  },
+  "349": {
+    "Gender": "",
+    "Wort Deutsch": "du magst",
+    "Englisch": "you like",
+    "Kategorie": "Sonstige Verben",
+    "Image URL": ""
+  },
+  "350": {
+    "Gender": "",
+    "Wort Deutsch": "reparieren",
+    "Englisch": "to repair",
+    "Kategorie": "Sonstige Verben",
+    "Image URL": ""
+  },
+  "351": {
+    "Gender": "",
+    "Wort Deutsch": "sprechen",
+    "Englisch": "to speak",
+    "Kategorie": "Sonstige Verben",
+    "Image URL": ""
+  },
+  "352": {
+    "Gender": "",
+    "Wort Deutsch": "suchen",
+    "Englisch": "to look for",
+    "Kategorie": "Sonstige Verben",
+    "Image URL": ""
+  },
+  "353": {
+    "Gender": "",
+    "Wort Deutsch": "trinken",
+    "Englisch": "to drink",
+    "Kategorie": "Sonstige Verben",
+    "Image URL": ""
+  },
+  "354": {
+    "Gender": "",
+    "Wort Deutsch": "tun",
+    "Englisch": "to do",
+    "Kategorie": "Sonstige Verben",
+    "Image URL": ""
+  },
+  "355": {
+    "Gender": "",
+    "Wort Deutsch": "wohnen",
+    "Englisch": "to live",
+    "Kategorie": "Sonstige Verben",
+    "Image URL": ""
+  },
+  "356": {
+    "Gender": "",
+    "Wort Deutsch": "Besitz",
+    "Englisch": "Possessions",
+    "Kategorie": "Besitz",
+    "Image URL": ""
+  },
+  "357": {
+    "Gender": "die",
+    "Wort Deutsch": "Kamera, -s",
+    "Englisch": "camera",
+    "Kategorie": "Besitz",
+    "Image URL": ""
+  },
+  "358": {
+    "Gender": "die",
+    "Wort Deutsch": "Sonnenbrille, -n",
+    "Englisch": "sunglasses",
+    "Kategorie": "Besitz",
+    "Image URL": ""
+  },
+  "359": {
+    "Gender": "die",
+    "Wort Deutsch": "Tasche, -n",
+    "Englisch": "bag; purse",
+    "Kategorie": "Besitz",
+    "Image URL": ""
+  },
+  "360": {
+    "Gender": "der",
+    "Wort Deutsch": "Computer, -",
+    "Englisch": "computer",
+    "Kategorie": "Besitz",
+    "Image URL": ""
+  },
+  "361": {
+    "Gender": "der",
+    "Wort Deutsch": "Fernseher, -",
+    "Englisch": "television",
+    "Kategorie": "Besitz",
+    "Image URL": ""
+  },
+  "362": {
+    "Gender": "der",
+    "Wort Deutsch": "Grill, -s",
+    "Englisch": "grill",
+    "Kategorie": "Besitz",
+    "Image URL": ""
+  },
+  "363": {
+    "Gender": "der",
+    "Wort Deutsch": "Haartrockner, -",
+    "Englisch": "hair dryer",
+    "Kategorie": "Besitz",
+    "Image URL": ""
+  },
+  "364": {
+    "Gender": "der",
+    "Wort Deutsch": "Hund, -e",
+    "Englisch": "dog",
+    "Kategorie": "Besitz",
+    "Image URL": ""
+  },
+  "365": {
+    "Gender": "der",
+    "Wort Deutsch": "Koffer, -",
+    "Englisch": "suitcase",
+    "Kategorie": "Besitz",
+    "Image URL": ""
+  },
+  "366": {
+    "Gender": "der",
+    "Wort Deutsch": "Schallplattenspieler, -",
+    "Englisch": "record player",
+    "Kategorie": "Besitz",
+    "Image URL": ""
+  },
+  "367": {
+    "Gender": "der",
+    "Wort Deutsch": "Schlafsack, ¨-e",
+    "Englisch": "sleeping bag",
+    "Kategorie": "Besitz",
+    "Image URL": ""
+  },
+  "368": {
+    "Gender": "der",
+    "Wort Deutsch": "Skischuh, e",
+    "Englisch": "ski boot",
+    "Kategorie": "Besitz",
+    "Image URL": ""
+  },
+  "369": {
+    "Gender": "der",
+    "Wort Deutsch": "Wanderschuh, -e",
+    "Englisch": "hiking shoe",
+    "Kategorie": "Besitz",
+    "Image URL": ""
+  },
+  "370": {
+    "Gender": "der",
+    "Wort Deutsch": "Wecker, -e",
+    "Englisch": "alarm clock",
+    "Kategorie": "Besitz",
+    "Image URL": ""
+  },
+  "371": {
+    "Gender": "das",
+    "Wort Deutsch": "Auto, -s",
+    "Englisch": "car",
+    "Kategorie": "Besitz",
+    "Image URL": ""
+  },
+  "372": {
+    "Gender": "das",
+    "Wort Deutsch": "Bild, -er",
+    "Englisch": "picture",
+    "Kategorie": "Besitz",
+    "Image URL": ""
+  },
+  "373": {
+    "Gender": "das",
+    "Wort Deutsch": "Fahrrad, ¨er",
+    "Englisch": "bicycle",
+    "Kategorie": "Besitz",
+    "Image URL": ""
+  },
+  "374": {
+    "Gender": "das",
+    "Wort Deutsch": "Geld",
+    "Englisch": "money",
+    "Kategorie": "Besitz",
+    "Image URL": ""
+  },
+  "375": {
+    "Gender": "das",
+    "Wort Deutsch": "Handy, -s",
+    "Englisch": "cell phone",
+    "Kategorie": "Besitz",
+    "Image URL": ""
+  },
+  "376": {
+    "Gender": "das",
+    "Wort Deutsch": "Klavier, -e",
+    "Englisch": "piano",
+    "Kategorie": "Besitz",
+    "Image URL": ""
+  },
+  "377": {
+    "Gender": "das",
+    "Wort Deutsch": "Motorrad, ¨-er",
+    "Englisch": "motorcycle",
+    "Kategorie": "Besitz",
+    "Image URL": ""
+  },
+  "378": {
+    "Gender": "das",
+    "Wort Deutsch": "Pferd, -e",
+    "Englisch": "horse",
+    "Kategorie": "Besitz",
+    "Image URL": ""
+  },
+  "379": {
+    "Gender": "das",
+    "Wort Deutsch": "Radio, -s",
+    "Englisch": "radio",
+    "Kategorie": "Besitz",
+    "Image URL": ""
+  },
+  "380": {
+    "Gender": "das",
+    "Wort Deutsch": "Surfbrett, -er",
+    "Englisch": "surfboard",
+    "Kategorie": "Besitz",
+    "Image URL": ""
+  },
+  "381": {
+    "Gender": "das",
+    "Wort Deutsch": "Telefon, -e",
+    "Englisch": "telephone",
+    "Kategorie": "Besitz",
+    "Image URL": ""
+  },
+  "382": {
+    "Gender": "das",
+    "Wort Deutsch": "Wörterbuch, ¨-er",
+    "Englisch": "dictionary",
+    "Kategorie": "Besitz",
+    "Image URL": ""
+  },
+  "383": {
+    "Gender": "das",
+    "Wort Deutsch": "Zelt, -e",
+    "Englisch": "tent",
+    "Kategorie": "Besitz",
+    "Image URL": ""
+  },
+  "384": {
+    "Gender": "",
+    "Wort Deutsch": "Im Studentenheim",
+    "Englisch": "In the Dorm",
+    "Kategorie": "Im Studentenheim",
+    "Image URL": ""
+  },
+  "385": {
+    "Gender": "die",
+    "Wort Deutsch": "Lampe, -n",
+    "Englisch": "lamp",
+    "Kategorie": "Im Studentenheim",
+    "Image URL": ""
+  },
+  "386": {
+    "Gender": "die",
+    "Wort Deutsch": "Pinnwand, ¨-e",
+    "Englisch": "bulletin board",
+    "Kategorie": "Im Studentenheim",
+    "Image URL": ""
+  },
+  "387": {
+    "Gender": "der",
+    "Wort Deutsch": "Rucksack, ¨-e",
+    "Englisch": "backpack",
+    "Kategorie": "Im Studentenheim",
+    "Image URL": ""
+  },
+  "388": {
+    "Gender": "der",
+    "Wort Deutsch": "Schreibtisch, -e",
+    "Englisch": "desk",
+    "Kategorie": "Im Studentenheim",
+    "Image URL": ""
+  },
+  "389": {
+    "Gender": "der",
+    "Wort Deutsch": "Stuhl, ¨-e",
+    "Englisch": "chair",
+    "Kategorie": "Im Studentenheim",
+    "Image URL": ""
+  },
+  "390": {
+    "Gender": "der",
+    "Wort Deutsch": "Teppich, -e",
+    "Englisch": "rug",
+    "Kategorie": "Im Studentenheim",
+    "Image URL": ""
+  },
+  "391": {
+    "Gender": "das",
+    "Wort Deutsch": "Bett, -en",
+    "Englisch": "bed",
+    "Kategorie": "Im Studentenheim",
+    "Image URL": ""
+  },
+  "392": {
+    "Gender": "das",
+    "Wort Deutsch": "Poster",
+    "Englisch": "poster",
+    "Kategorie": "Im Studentenheim",
+    "Image URL": ""
+  },
+  "393": {
+    "Gender": "die",
+    "Wort Deutsch": "Fliege, -n",
+    "Englisch": "bow tie",
+    "Kategorie": "Kleidung und Mode",
+    "Image URL": ""
+  },
+  "394": {
+    "Gender": "die",
+    "Wort Deutsch": "Halskette, -n",
+    "Englisch": "necklace",
+    "Kategorie": "Kleidung und Mode",
+    "Image URL": ""
+  },
+  "395": {
+    "Gender": "die",
+    "Wort Deutsch": "Sandale, -n",
+    "Englisch": "sandal",
+    "Kategorie": "Kleidung und Mode",
+    "Image URL": ""
+  },
+  "396": {
+    "Gender": "die",
+    "Wort Deutsch": "Socke, -n",
+    "Englisch": "socks",
+    "Kategorie": "Kleidung und Mode",
+    "Image URL": ""
+  },
+  "397": {
+    "Gender": "die",
+    "Wort Deutsch": "Sporthose, -n",
+    "Englisch": "sport pants",
+    "Kategorie": "Kleidung und Mode",
+    "Image URL": ""
+  },
+  "398": {
+    "Gender": "die",
+    "Wort Deutsch": "Weste, -n",
+    "Englisch": "vest",
+    "Kategorie": "Kleidung und Mode",
+    "Image URL": ""
+  },
+  "399": {
+    "Gender": "der",
+    "Wort Deutsch": "Haarschnitt",
+    "Englisch": "haircut",
+    "Kategorie": "Kleidung und Mode",
+    "Image URL": ""
+  },
+  "400": {
+    "Gender": "der",
+    "Wort Deutsch": "Schnurrbart ¨-e",
+    "Englisch": "mustache",
+    "Kategorie": "Kleidung und Mode",
+    "Image URL": ""
+  },
+  "401": {
+    "Gender": "der",
+    "Wort Deutsch": "Hausschuh, -e",
+    "Englisch": "slipper",
+    "Kategorie": "Kleidung und Mode",
+    "Image URL": ""
+  },
+  "402": {
+    "Gender": "der",
+    "Wort Deutsch": "Ohrring, -e",
+    "Englisch": "earing",
+    "Kategorie": "Kleidung und Mode",
+    "Image URL": ""
+  },
+  "403": {
+    "Gender": "der",
+    "Wort Deutsch": "Ring, -e",
+    "Englisch": "ring",
+    "Kategorie": "Kleidung und Mode",
+    "Image URL": ""
+  },
+  "404": {
+    "Gender": "",
+    "Wort Deutsch": "finden",
+    "Englisch": "to find",
+    "Kategorie": "Kleidung und Mode",
+    "Image URL": ""
+  },
+  "405": {
+    "Gender": "",
+    "Wort Deutsch": "wie findest du...?",
+    "Englisch": "how do you like?",
+    "Kategorie": "Kleidung und Mode",
+    "Image URL": ""
+  },
+  "406": {
+    "Gender": "",
+    "Wort Deutsch": "hässlich",
+    "Englisch": "ugly",
+    "Kategorie": "Kleidung und Mode",
+    "Image URL": ""
+  },
+  "407": {
+    "Gender": "",
+    "Wort Deutsch": "hübsch",
+    "Englisch": "cute",
+    "Kategorie": "Kleidung und Mode",
+    "Image URL": ""
+  },
+  "408": {
+    "Gender": "",
+    "Wort Deutsch": "klasse",
+    "Englisch": "great",
+    "Kategorie": "Kleidung und Mode",
+    "Image URL": ""
+  },
+  "409": {
+    "Gender": "",
+    "Wort Deutsch": "modisch",
+    "Englisch": "fashionable",
+    "Kategorie": "Kleidung und Mode",
+    "Image URL": ""
+  },
+  "410": {
+    "Gender": "",
+    "Wort Deutsch": "schick",
+    "Englisch": "chic",
+    "Kategorie": "Kleidung und Mode",
+    "Image URL": ""
+  },
+  "411": {
+    "Gender": "",
+    "Wort Deutsch": "schlecht",
+    "Englisch": "bad",
+    "Kategorie": "Kleidung und Mode",
+    "Image URL": ""
+  },
+  "412": {
+    "Gender": "",
+    "Wort Deutsch": "toll",
+    "Englisch": "great",
+    "Kategorie": "Kleidung und Mode",
+    "Image URL": ""
+  },
+  "": {
+    "Gender": "",
+    "Wort Deutsch": "",
+    "Englisch": "",
+    "Kategorie": "",
     "Image URL": ""
   }
 }
