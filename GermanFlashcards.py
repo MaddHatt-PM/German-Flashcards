@@ -2,7 +2,7 @@
 # German Flashcards by Patt Martin -
 # ----------------------------------
 from utilities import *
-import game_translate_one
+import game_translate_one_word
 import game_which_one
 import game_number_translator
 import game_translate_time
@@ -59,7 +59,7 @@ def show_main_menu(germanData:GermanData):
             print("Invalid selection was made... try again")
 
         if(selectionID == "0"):
-            game_translate_one.play_game(germanData)
+            game_translate_one_word.play_game(germanData)
         elif(selectionID == "1"):
             game_which_one.play_game(germanData)
         elif(selectionID == "2"):
