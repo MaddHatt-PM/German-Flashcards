@@ -122,7 +122,10 @@ def play_game(germanData:GermanData):
 
         if (choice.lower() == answer.lower()):
             print("Correct")
+            correct_count += 1
         else:
+            if (answer_language =="Deutsch "):
+                answer = chosenCard.gender + " " + answer
             print("Incorrect, the correct answer was: " + answer)
             if(input("Mark as correct anyways? Y or type the answer to advance: ") == 'Y'):
                 correct_count += 1
